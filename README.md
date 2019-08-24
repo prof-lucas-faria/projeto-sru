@@ -9,6 +9,14 @@ Um dos objetivos do projeto é controlar o acesso dos usuários do IF Goiano - C
 
 ## O principal objetivo do sistema é trazer conhecimento gerencial.
 
+## Configurações
+```
+Nome do banco de dados: sru
+Usuário banco de dados: root
+Senha banco de dados: ''
+
+```
+
 ### Prazos: 
 ```
 Ana Paula - Select da tabela usuários Dia 04/09/2019
@@ -21,3 +29,4 @@ Laila - Requisitos Funionais e Não-Funcionais, Prototipo das Telas e Lista de S
 
 Welliton - Select da tabela usuários Dia 04/09/2019 
 ```
+
