@@ -9,11 +9,12 @@ Um dos objetivos do projeto é controlar o acesso dos usuários do IF Goiano - C
 
 ## O principal objetivo do sistema é trazer conhecimento gerencial.
 
-## Configurações padrão
+## - Configurações padrão
 ```
-Nome do banco de dados: sru
-Usuário banco de dados: root
-Senha banco de dados: ''
+  'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'sru',
 ```
 
 ### Prazos: 
