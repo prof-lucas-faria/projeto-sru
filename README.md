@@ -10,6 +10,8 @@ Um dos objetivos do projeto é controlar o acesso dos usuários do IF Goiano - C
 ## O principal objetivo do sistema é trazer conhecimento gerencial.
 
 ## - Configurações padrão
+
+<i>//Banco de dados<i>
 ```
 'hostname' => 'localhost',
 'username' => 'root',
