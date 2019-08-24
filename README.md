@@ -11,10 +11,10 @@ Um dos objetivos do projeto é controlar o acesso dos usuários do IF Goiano - C
 
 ## - Configurações padrão
 ```
-  'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'sru',
+'hostname' => 'localhost',
+'username' => 'root',
+'password' => '',
+'database' => 'sru',
 ```
 
 ### Prazos: 
