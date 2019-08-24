@@ -19,7 +19,7 @@ Um dos objetivos do projeto é controlar o acesso dos usuários do IF Goiano - C
 'database' => 'sru',
 ```
 
-### Prazos: 
+### - Prazos: 
 ```
 Ana Paula - Select da tabela usuários Dia 04/09/2019
 
