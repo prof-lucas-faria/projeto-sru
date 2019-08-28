@@ -21,8 +21,6 @@ Um dos objetivos do projeto é controlar o acesso dos usuários do IF Goiano - C
 
 ## - Prazos: 
 ```
-DIA 04/09/2019
-
 Ana Paula - Objetivo do Prototipo / Software e Lista de Software Utilizados Dia 04/09/2019
 
 Ana Paula - Select da tabela usuários Dia 11/09/2019
