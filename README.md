@@ -21,14 +21,22 @@ Um dos objetivos do projeto é controlar o acesso dos usuários do IF Goiano - C
 
 ## - Prazos: 
 ```
-Ana Paula - Select da tabela usuários Dia 04/09/2019
+DIA 04/09/2019
 
-Andreia - Popular a Tabela Usuário, Perfil Di 28/08/2019
+Ana Paula - Objetivo do Prototipo / Software e Lista de Software Utilizados Dia 04/09/2019
 
-João - CRUD de Cardápio e Item do Cardapio Dia 04/09/2019
+Ana Paula - Select da tabela usuários Dia 11/09/2019
 
-Laila - Requisitos Funionais e Não-Funcionais, Prototipo das Telas e Lista de Software Utilizados, Objetivo do Projeto Dia 04/09/2019
+Andreia - Popular a Tabela Usuário, Perfil Dia 28/08/2019 - Finalizado OK
 
-Welliton - Select da tabela usuários Dia 04/09/2019 
+Andreia e Welliton - Requisitos Funcionais Dia 04/09/2019
+
+João - CRUD de Cardápio e Item do Cardapio Dia 11/09/2019
+
+João - Requisitos Não-Funcionais Dia 04/09/2019
+
+Laila - Prototipo das Telas Dia 04/09/2019
+
+Welliton - Select da tabela usuários Dia 11/09/2019 
 ```
 
