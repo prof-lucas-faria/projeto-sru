@@ -72,7 +72,7 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `sru`.`Movimento` (
   `idMovimento` INT NOT NULL AUTO_INCREMENT,
   `dataHora` DATETIME NOT NULL,
-  `iidUsuarios` INT NOT NULL,
+  `idUsuarios` INT NOT NULL,
   `idCardapio` INT NOT NULL,
   `idTipoMovimento` INT NOT NULL,
   PRIMARY KEY (`idMovimento`),
@@ -80,7 +80,7 @@ CREATE TABLE IF NOT EXISTS `sru`.`Movimento` (
   INDEX `fk_Movimento_Cardapio1_idx` (`idCardapio` ASC) VISIBLE,
   INDEX `fk_Movimento_TipoMovimento1_idx` (`idTipoMovimento` ASC) VISIBLE,
   CONSTRAINT `fk_Movimento_Usuarios1`
-    FOREIGN KEY (`iidUsuarios`)
+    FOREIGN KEY (`idUsuarios`)
     REFERENCES `sru`.`Usuario` (`idUsuario`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION,
@@ -101,10 +101,10 @@ ENGINE = InnoDB;
 -- Table `sru`.`ItensCardapio`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `sru`.`ItensCardapio` (
-  `iditensCardapio` INT NOT NULL AUTO_INCREMENT,
+  `idItensCardapio` INT NOT NULL AUTO_INCREMENT,
   `nomeItem` VARCHAR(45) NOT NULL,
   `idCardapio` INT NOT NULL,
-  PRIMARY KEY (`iditensCardapio`),
+  PRIMARY KEY (`idItensCardapio`),
   INDEX `fk_itensCardapio_Cardapio1_idx` (`idCardapio` ASC) VISIBLE,
   CONSTRAINT `fk_itensCardapio_Cardapio1`
     FOREIGN KEY (`idCardapio`)
