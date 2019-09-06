@@ -12,16 +12,16 @@ class Template {
         
         $CI = & get_instance();
 
-        // load Header
+        // load header
         $CI->load->view('template/header', $data);
         
-        // load Content
+        // load content
         $CI->load->view($view, $data);
 
-        // load Footer
+        // load footer
         $CI->load->view('template/footer', $data);
 
         // Scripts
-        $CI->load->view('template/script', $data);
+        $CI->load->view('template/scripts', $data);
     }
 }
