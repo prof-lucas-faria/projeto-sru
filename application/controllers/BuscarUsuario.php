@@ -20,6 +20,10 @@ class BuscarUsuario extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('BuscarUsuario');
+		// Carrega somente a View BuscarUsuário
+		// $this->load->view('BuscarUsuario');
+
+		// Carrega todos os templates dentro da View
+		$this->template->show('BuscarUsuario');
 	}
 }

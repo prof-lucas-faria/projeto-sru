@@ -90,7 +90,9 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array();
+// Carrega o Helper de Url para que seje padrão os locais onde estão as pastas com as imagens, css, jc, etc.
+// Tem que configurar também no config.php a base_url
+$autoload['helper'] = array('url');
 
 /*
 | -------------------------------------------------------------------
