@@ -33,7 +33,7 @@ João - CRUD de Cardápio e Item do Cardapio Dia 11/09/2019
 
 João - Requisitos Não-Funcionais Dia 04/09/2019
 
-Laila - Prototipo das Telas Dia 04/09/2019
+Laila - Prototipo das Telas Dia 04/09/2019 - Finalizado OK
 
 Welliton - Select da tabela usuários Dia 11/09/2019 
 ```
