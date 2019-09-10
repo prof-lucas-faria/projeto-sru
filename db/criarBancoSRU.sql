@@ -52,6 +52,12 @@ CREATE TABLE IF NOT EXISTS `sru`.`Cardapio` (
   `idCardapio` INT NOT NULL AUTO_INCREMENT,
   `data` DATE NOT NULL,
   `nomeCardapio` VARCHAR(45) NOT NULL,
+  `pratoPrincipal` VARCHAR(45) NOT NULL,
+  `guarnicao` VARCHAR(45) NOT NULL,
+  `acompanhamento` VARCHAR(45) NOT NULL,
+  `salada` VARCHAR(45) NOT NULL,
+  `sobremesa` VARCHAR(45) NOT NULL,
+  `suco` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`idCardapio`))
 ENGINE = InnoDB;
 
@@ -76,7 +82,7 @@ CREATE TABLE IF NOT EXISTS `sru`.`Movimento` (
   `idCardapio` INT NOT NULL,
   `idTipoMovimento` INT NOT NULL,
   PRIMARY KEY (`idMovimento`),
-  INDEX `fk_Movimento_Usuarios1_idx` (`iidUsuarios` ASC) VISIBLE,
+  INDEX `fk_Movimento_Usuarios1_idx` (`idUsuarios` ASC) VISIBLE,
   INDEX `fk_Movimento_Cardapio1_idx` (`idCardapio` ASC) VISIBLE,
   INDEX `fk_Movimento_TipoMovimento1_idx` (`idTipoMovimento` ASC) VISIBLE,
   CONSTRAINT `fk_Movimento_Usuarios1`
@@ -98,17 +104,20 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `sru`.`ItensCardapio`
+-- Table `sru`.`AcessoRestrito`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `sru`.`ItensCardapio` (
-  `idItensCardapio` INT NOT NULL AUTO_INCREMENT,
-  `nomeItem` VARCHAR(45) NOT NULL,
-  `idCardapio` INT NOT NULL,
-  PRIMARY KEY (`idItensCardapio`),
-  INDEX `fk_itensCardapio_Cardapio1_idx` (`idCardapio` ASC) VISIBLE,
-  CONSTRAINT `fk_itensCardapio_Cardapio1`
-    FOREIGN KEY (`idCardapio`)
-    REFERENCES `sru`.`Cardapio` (`idCardapio`)
+CREATE TABLE IF NOT EXISTS `sru`.`AcessoRestrito` (
+  `idAcessoRestrito` INT NOT NULL AUTO_INCREMENT,
+  `nomeColaborador` VARCHAR(45) NOT NULL,
+  `cpf` VARCHAR(45) NOT NULL,
+  `eMail` VARCHAR(45) NOT NULL,
+  `senha` VARCHAR(45) NOT NULL,
+  `Perfil_idPerfil` INT NOT NULL,
+  PRIMARY KEY (`idAcessoRestrito`),
+  INDEX `fk_AcessoRestrito_Perfil1_idx` (`Perfil_idPerfil` ASC) VISIBLE,
+  CONSTRAINT `fk_AcessoRestrito_Perfil1`
+    FOREIGN KEY (`Perfil_idPerfil`)
+    REFERENCES `sru`.`Perfil` (`idPerfil`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;
