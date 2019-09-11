@@ -13,7 +13,7 @@
 						<h4 class="modal-title" id="Modal-label-1">Dean & Letter</h4>
 					</div>
 					<div class="modal-body">
-						<img src="images/demo/portfolio-1.jpg" alt="img01" class="img-responsive" />
+						<img src="<?php echo base_url(); ?>public/images/demo/portfolio-1.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
 						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
 					</div>
@@ -33,7 +33,7 @@
 						<h4 class="modal-title" id="Modal-label-2">Startup Framework</h4>
 					</div>
 					<div class="modal-body">
-						<img src="images/demo/portfolio-2.jpg" alt="img01" class="img-responsive" />
+						<img src="<?php echo base_url(); ?>public/images/demo/portfolio-2.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
 						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
 					</div>
@@ -53,7 +53,7 @@
 						<h4 class="modal-title" id="Modal-label-3">Lamp & Velvet</h4>
 					</div>
 					<div class="modal-body">
-						<img src="images/demo/portfolio-3.jpg" alt="img01" class="img-responsive" />
+						<img src="<?php echo base_url(); ?>public/images/demo/portfolio-3.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
 						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
 					</div>
@@ -73,7 +73,7 @@
 						<h4 class="modal-title" id="Modal-label-4">Smart Name</h4>
 					</div>
 					<div class="modal-body">
-						<img src="images/demo/portfolio-4.jpg" alt="img01" class="img-responsive" />
+						<img src="<?php echo base_url(); ?>public/images/demo/portfolio-4.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
 						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
 					</div>
@@ -93,7 +93,7 @@
 						<h4 class="modal-title" id="Modal-label-5">Fast People</h4>
 					</div>
 					<div class="modal-body">
-						<img src="images/demo/portfolio-5.jpg" alt="img01" class="img-responsive" />
+						<img src="<?php echo base_url(); ?>public/images/demo/portfolio-5.jpg" alt="img01" class="img-responsive" />
 						<div class="modal-works"><span>Branding</span><span>Web Design</span></div>
 						<p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe</p>
 					</div>
