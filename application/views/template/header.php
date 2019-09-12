@@ -47,10 +47,10 @@
 							<a href="#page-top"></a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#about">Cardapio</a>
+							<a class="page-scroll" href="#about">Cardápio</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#services">Relatórios</a>
+							<a class="page-scroll" href="#services">Relatório</a>
 						</li>
 						<li>
 							<a class="page-scroll" href="#portfolio">Buscar</a>
