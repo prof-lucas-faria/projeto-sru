@@ -1,5 +1,11 @@
+body{
+	background-color:#2E8B57;
+}
+
 .campoBusca {
 	margin-left: 700px;
 	margin-top: 300px;
 	margin-bottom : 300px;
 }
+
+
