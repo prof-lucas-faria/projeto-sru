@@ -1,20 +1,18 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Buscar</title>
 
-</head>
-<body>
+<section id="portfolio" class="light-bg campoBusca">
+<div class="form-row">
+        <div class="form-group col-md-3">
+            <input id="nome" name="descricao" placeholder="Digite a matrícula" class="form-control" type="text">           
+        </div>
+        <div class="form-group col-md-3">
+	 <button type="button" class="btn btn-danger">Buscar</button>                    
+        </div>
 
-
-<h1>Página principal</h1>
-
-<p><h3>Aqui será a página inicial do SRU</h3></p>
+</div>
+</section>
 
 	
 
-</body>
-</html>

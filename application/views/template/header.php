@@ -16,6 +16,7 @@
 		<link href="<?php echo base_url(); ?>public/css/owl.carousel.css" rel="stylesheet">
 		<link href="<?php echo base_url(); ?>public/css/owl.theme.default.min.css"  rel="stylesheet">
 		<link href="<?php echo base_url(); ?>public/css/style.css" rel="stylesheet">
+		<link href="<?php echo base_url(); ?>public/css/estilo.css" rel="stylesheet">
 		<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
 		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 		<script src="<?php echo base_url(); ?>public/js/ie-emulation-modes-warning.js"></script>
