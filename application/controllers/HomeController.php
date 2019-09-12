@@ -24,6 +24,6 @@ class HomeController extends CI_Controller {
 		// $this->load->view('BuscarUsuario');
 
 		// Carrega todos os templates dentro da View
-		$this->template->show('BuscarUsuario');
+		$this->template->show('home');
 	}
 }
