@@ -1,6 +1,6 @@
 <?php
 
-class Usuario{
+class Usuario_model{
 
     private $idUsuario;
     private $matricula = null;
@@ -31,9 +31,15 @@ class Usuario{
         $this->$atributo = $valor;
     }
     
+    // Metodo para buscar usuários por nome na tabela Usuario do banco SRU
+    public function BuscarNome(){
+        return $this->db->get('Usuario')->result_array();
+    }
+    
 }
 
-// $usuario1 = new Usuario("1", "2017103", "Welliton", "Masculino", "Ceres", "Sistema", "Aluno");
+
+// $usuario1 = new Usuario_model("1", "2017103", "Welliton", "Masculino", "Ceres", "Sistema", "Aluno");
 
 // echo "<pre>";
 
