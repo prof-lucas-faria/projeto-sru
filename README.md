@@ -25,8 +25,6 @@ Ana Paula - Classe Acesso Restrito Dia 18/09/2019
 
 João - CRUD de Cardápio Dia 18/09/2019
 
-João - Requisitos Não-Funcionais - Subir no GIT
-
 Laila - Prototipo das Telas Dia 16/09
 
 Welliton e Andreia  - Classe usuários Dia 18/09/2019 

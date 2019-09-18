@@ -2,7 +2,7 @@
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
-SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
 -- -----------------------------------------------------
 -- Schema sru
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS `sru`.`Usuario` (
   `cidadeOrigem` VARCHAR(45) NULL,
   `curso` VARCHAR(100) NULL,
   `idPerfil` INT NOT NULL,
-  INDEX `fk_Usuarios_Perfil_idx` (`idPerfil` ASC) VISIBLE,
+  INDEX `fk_Usuarios_Perfil_idx` (`idPerfil` ASC),
   PRIMARY KEY (`idUsuario`),
   CONSTRAINT `fk_Usuarios_Perfil`
     FOREIGN KEY (`idPerfil`)
@@ -82,9 +82,9 @@ CREATE TABLE IF NOT EXISTS `sru`.`Movimento` (
   `idCardapio` INT NOT NULL,
   `idTipoMovimento` INT NOT NULL,
   PRIMARY KEY (`idMovimento`),
-  INDEX `fk_Movimento_Usuarios1_idx` (`idUsuarios` ASC) VISIBLE,
-  INDEX `fk_Movimento_Cardapio1_idx` (`idCardapio` ASC) VISIBLE,
-  INDEX `fk_Movimento_TipoMovimento1_idx` (`idTipoMovimento` ASC) VISIBLE,
+  INDEX `fk_Movimento_Usuarios1_idx` (`idUsuarios` ASC),
+  INDEX `fk_Movimento_Cardapio1_idx` (`idCardapio` ASC),
+  INDEX `fk_Movimento_TipoMovimento1_idx` (`idTipoMovimento` ASC),
   CONSTRAINT `fk_Movimento_Usuarios1`
     FOREIGN KEY (`idUsuarios`)
     REFERENCES `sru`.`Usuario` (`idUsuario`)
@@ -114,7 +114,7 @@ CREATE TABLE IF NOT EXISTS `sru`.`AcessoRestrito` (
   `senha` VARCHAR(45) NOT NULL,
   `Perfil_idPerfil` INT NOT NULL,
   PRIMARY KEY (`idAcessoRestrito`),
-  INDEX `fk_AcessoRestrito_Perfil1_idx` (`Perfil_idPerfil` ASC) VISIBLE,
+  INDEX `fk_AcessoRestrito_Perfil1_idx` (`Perfil_idPerfil` ASC),
   CONSTRAINT `fk_AcessoRestrito_Perfil1`
     FOREIGN KEY (`Perfil_idPerfil`)
     REFERENCES `sru`.`Perfil` (`idPerfil`)
