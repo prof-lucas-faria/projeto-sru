@@ -1,49 +1,28 @@
 <?php
 
-class Usuario_model extends CI_Model{
-
-    // private $idUsuario;
-    // private $matricula = null;
-    // private $nome = null;
-    // private $genero = null;
-    // private $cidadeOrigem = null;
-    // private $curso = null;
-    // private $perfil = null;
-
-
-    // function __construct($idUsuario, $matricula, $nome, $genero, $cidadeOrigem, $curso, $perfil){
-
-    //     $this->__set('idUsuario', $idUsuario);
-    //     $this->__set('matricula', $matricula);
-    //     $this->__set('nome', $nome);
-    //     $this->__set('genero', $genero);
-    //     $this->__set('cidadeOrigem', $cidadeOrigem);
-    //     $this->__set('curso', $curso);
-    //     $this->__set('perfil', $perfil);
-    // } 
+class Usuario_model extends CI_Model{    
     
-    // // Get e Set OverLoading
-    // public function __get($atributo){
-    //     return $this->$atributo;
-    // }
-
-    // public function __set($atributo, $valor){
-    //     $this->$atributo = $valor;
-    // }
-    
-    // Metodo para buscar usuários por nome na tabela Usuario do banco SRU
-    public function BuscarNome(){
+    // Metodo para listar todos os usuários da tabela Usuario do banco SRU
+    public function listarTodos(){
         return $this->db->get('Usuario')->result_array();
+    }
+
+    // Metodo para listar os usuários por nome utilizado pela classe controler pesquisaUsuario
+    public function listarNome($lista){
+
+        if(empty($lista))
+            return array();
+        
+        $lista = $this->input->post('busca');
+
+        $this->db->like('nome', $lista);
+
+        $query = $this->db->get('Usuario');
+
+        return $query->result_array();
+
     }
     
 }
 
-
-// $usuario1 = new Usuario_model("1", "2017103", "Welliton", "Masculino", "Ceres", "Sistema", "Aluno");
-
-// echo "<pre>";
-
-// print_r($usuario1);
-
-// echo "</pre>";
 ?>

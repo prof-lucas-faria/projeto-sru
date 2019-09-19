@@ -1,6 +1,8 @@
 <?php
 
-class AcessoRestrito{
+ defined('BASEPATH') OR exit('No direct script access allowed');
+ 
+class AcessoRestrito extends CI_Model {
     
     private $idAcessoRestrito;
     private $nomeColaborador;
@@ -22,11 +24,15 @@ class AcessoRestrito{
     public function __get($atributo) {
         return $this->$atributo;
     }
+    
     public function __set($atributo, $valor) {
         $this->$atributo = $valor;
     }
     
+    public function getColaboradores() {
+        $query = $this->db->get('AcessoRestrito');
+        return $query->result();
+    }
 }
-
 
 ?>

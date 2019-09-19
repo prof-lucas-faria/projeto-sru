@@ -53,7 +53,7 @@
 							<a class="page-scroll" href="#services">Relatório</a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#portfolio">Buscar</a>
+							<a class="page-scroll" href="#buscar">Buscar</a>
 						</li>
 						<li>
 							<a class="page-scroll" href="#team">Login</a>
