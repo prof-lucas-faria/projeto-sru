@@ -1087,3 +1087,6 @@ INSERT INTO `Usuario` (`idUsuario`, `matricula`, `nome`, `genero`, `cidadeOrigem
 INSERT INTO `Usuario` (`idUsuario`, `matricula`, `nome`, `genero`, `cidadeOrigem`, `curso`, `idPerfil`) VALUES ('1087', '2019387', 'Monique De Paula', 'F', 'Rialma', 'VISITANTE', '3');
 INSERT INTO `Usuario` (`idUsuario`, `matricula`, `nome`, `genero`, `cidadeOrigem`, `curso`, `idPerfil`) VALUES ('1088', '2019388', 'Patricia Leal', 'F', 'Rialma', 'VISITANTE', '3');
 INSERT INTO `Usuario` (`idUsuario`, `matricula`, `nome`, `genero`, `cidadeOrigem`, `curso`, `idPerfil`) VALUES ('1089', '2019389', 'Vinicius Bruno', 'M', 'Rubiataba', 'VISITANTE', '3');
+INSERT INTO `Usuario` (`idUsuario`, `matricula`, `nome`, `genero`, `cidadeOrigem`, `curso`, `idPerfil`) VALUES ('1090', '2019390', 'Ceci Vitoria', 'F', 'Ceres', 'NUTRICIONISTA', '5');
+INSERT INTO `Usuario` (`idUsuario`, `matricula`, `nome`, `genero`, `cidadeOrigem`, `curso`, `idPerfil`) VALUES ('1091', '2019391', 'Olivieto Junqueira', 'M', 'Ceres', 'ADMINISTRADOR', '4');
+INSERT INTO `Usuario` (`idUsuario`, `matricula`, `nome`, `genero`, `cidadeOrigem`, `curso`, `idPerfil`) VALUES ('1092', '2019392', 'Asafe Souza', 'M', 'Ceres', 'PORTARIA', '6');
