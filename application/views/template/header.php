@@ -47,7 +47,7 @@
 							<a href="#page-top"></a>
 						</li>
 						<li>
-							<a class="page-scroll" href="#about">Cardápio</a>
+							<a class="page-scroll" href="#cardapio">Cardápio</a>
 						</li>
 						<li>
 							<a class="page-scroll" href="#services">Relatório</a>
