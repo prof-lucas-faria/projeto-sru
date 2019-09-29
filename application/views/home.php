@@ -58,7 +58,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         
         
 
-<! Esta sessão traz o reultado da consulta do metodo listarNome do modelo Usuario_model >
+<! Esta sessão traz o resultado da consulta do método listarNome do modelo Usuario_model >
 
 <!-- <div class="container">
         <table class='table'>
@@ -114,56 +114,11 @@ Usuario_model >
 
             </tr>
         </table>
-    </div>    -->
-    
-    
-        <! Sessão do listar colaboradores >
-
-<!-- <section id="buscar" class="ligth-bg campoBusca">
-    <div class="form-row">    
-        <div class="form-group col-md-3">
-            <input id="busca" name="busca" placeholder="Digite o nome" class="form-control" type="text">
-        </div>
-        <div class="form-group col-md-3">
-            <button  type="button"  class="btn btn-danger">Listar</button>
-        </div>        
-    </div>    
-</section> -->
-
-
-<<<<<<< HEAD
-    <! Sessão da listagem de colaboradores >
-=======
-<!-- <div class="container">
-        <table class='table'>
-            <tr>
-                <th>Nome do Colaborador</th>
-                <th>CPF</th>
-                <th>E-mail</th>
-                <th>Curso</th>
-                <th>Perfil</th>
-            </tr>
-            
-            <?php
-             
-            foreach ($acessos as $colaboradores) : ?>
-            
-            <tr>                
-                <td><?= $colaboradores['nomeColaborador']?></td>
-                <td><?= $colaboradores['cpf']?></td>
-                <td><?= $colaboradores['eMail']?></td>
-                <td><?= $colaboradores['curso']?></td>
-
-            <?php endforeach; ?>
-
-            </tr>
-        </table>
-    </div> -->
+    </div>    --> 
 
     <! Sessão do resultado da pesquisa >
->>>>>>> 6563ee185aca7ee11141092fd1581ef50aafb893
 
-    <!-- <section id="pesquisa" class="light-bg">
+  <section id="pesquisa" class="light-bg">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 text-center">
@@ -172,10 +127,11 @@ Usuario_model >
                             
                             <table class='table'>
                                 <tr>
+                                    <th>Nº do Colaborador</th>
                                     <th>Nome do Colaborador</th>
                                     <th>CPF</th>
                                     <th>E-mail</th>
-                                    <th>Curso</th>
+                                    <th>Senha</th>
                                     <th>Perfil</th>
                                 </tr>
                                 
@@ -187,11 +143,12 @@ Usuario_model >
                                 foreach ($colaboradores as $lista) : 
                                 $contador++; 
                                 ?>
-                                <tr>                
+                                <tr>   
+                                    <td><?= $lista['idAcessoRestrito']?></td>                                    
                                     <td><?= $lista['nomeColaborador']?></td>
                                     <td><?= $lista['cpf']?></td>
                                     <td><?= $lista['eMail']?></td>
-                                    <td><?= $lista['curso']?></td>
+                                    <td><?= $lista['senha']?></td>                                 
 
                                 <?php endforeach; ?>
 
@@ -210,4 +167,4 @@ Usuario_model >
 				</div>				
 			</div>
 			
-		</section> -->
+		</section>
