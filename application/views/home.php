@@ -101,36 +101,8 @@ Usuario_model >
     </div>    
 </section>
 
-<! Esta sessão traz os dados em forma de tabela feita na consulta listarTodos do modelo
-Acesso_model >
 
-<div class="container">
-        <table class='table'>
-            <tr>
-                <th>Nome do Colaborador</th>
-                <th>CPF</th>
-                <th>E-mail</th>
-                <th>Curso</th>
-                <th>Perfil</th>
-            </tr>
-            
-            <?php
-             
-            foreach ($acessos as $colaboradores) : ?>
-            
-            <tr>                
-                <td><?= $colaboradores['nomeColaborador']?></td>
-                <td><?= $colaboradores['cpf']?></td>
-                <td><?= $colaboradores['eMail']?></td>
-                <td><?= $colaboradores['curso']?></td>
-
-            <?php endforeach; ?>
-
-            </tr>
-        </table>
-    </div>
-
-    <! Sessão do resultado da pesquisa >
+    <! Sessão da listagem de colaboradores >
 
     <section id="pesquisa" class="light-bg">
 			<div class="container">
@@ -151,10 +123,11 @@ Acesso_model >
                                 <?php 
                                 
                                 $contador = 0;
-                                $contador++;
                                 
-                                foreach ($listagem as $lista) : ?>
                                 
+                                foreach ($colaboradores as $lista) : 
+                                $contador++; 
+                                ?>
                                 <tr>                
                                     <td><?= $lista['nomeColaborador']?></td>
                                     <td><?= $lista['cpf']?></td>
