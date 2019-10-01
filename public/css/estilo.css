@@ -1,11 +1,91 @@
 body{
-	background-color:#2E8B57;
+    background-color:#2E8B57;
+}
+/*conf de tabelas*/
+table{
+  font-family: Georgia, serif;
+  border: 6px solid #943954;
+  background-color: #D4EED1;
+  width: 100%;
+  text-align: center;
+}
+table td, th {
+  border: 1px solid #943954;
+  padding: 3px 2px;
+}
+table tbody td {
+  font-size: 13px;
+}
+table thead {
+  background: #943954;
+  background: -moz-linear-gradient(top, #af6a7f 0%, #9e4c65 66%, #943954 100%);
+  background: -webkit-linear-gradient(top, #af6a7f 0%, #9e4c65 66%, #943954 100%);
+  background: linear-gradient(to bottom, #af6a7f 0%, #9e4c65 66%, #943954 100%);
+  border-bottom: 0px solid #444444;
+}
+table thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #F0F0F0;
+  text-align: left;
+  border-left: 2px solid #943954;
+}
+table thead th:first-child {
+  border-left: none;
 }
 
+table tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #F0F0F0;
+  background: #943954;
+  background: -moz-linear-gradient(top, #af6a7f 0%, #9e4c65 66%, #943954 100%);
+  background: -webkit-linear-gradient(top, #af6a7f 0%, #9e4c65 66%, #943954 100%);
+  background: linear-gradient(to bottom, #af6a7f 0%, #9e4c65 66%, #943954 100%);
+  border-top: 1px solid #24943A;
+}
+tabletfoot td {
+  font-size: 13px;
+}
+table tfoot .links {
+  text-align: right;
+}
+table tfoot .links a{
+  display: inline-block;
+  background: #FFFFFF;
+  color: #24943A;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+/* fim conf de tabelas*/
 .campoBusca {
-	margin-left: 700px;
-	margin-top: 300px;
-	margin-bottom : 300px;
+ 
+}
+.imgNew{
+    width: 20px;
+    height: 20px;
+    margin-left: 4px;
+    
 }
 
+.grupoBotoes{
+    padding-bottom: 20px;
+   margin-left: 8%;
+
+}
+
+.logo-sru{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px
+}
+legend{
+    padding-left: 1200px;
+    
+
+}
+#failMessage{
+    color: #ff9933;
+    margin-left: 40%;
+}
 
