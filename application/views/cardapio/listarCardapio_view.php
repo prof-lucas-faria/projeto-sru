@@ -31,7 +31,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <td><?php echo $cardapio->sobremesa; ?></td>
                         <td><?php echo $cardapio->suco; ?></td>
                         <td>
-                            <input type="button"  src="<?php echo base_url(); ?>assets/images/icons-edit-64.png" class="iconTable">
+
+                            <input type="image"  src="<?php echo base_url(); ?>assets/images/icons-edit-64.png" class="iconTable">
                             <input type="image" src="<?php echo base_url(); ?>assets/images/icons-delete-64.png" class="iconTable">
                         </td>
 
