@@ -31,10 +31,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <td><?php echo $cardapio->sobremesa; ?></td>
                         <td><?php echo $cardapio->suco; ?></td>
                         <td>
+                            <a href="<?php echo base_url(); ?>index.php/cardapio_controller/store">
+                                <input type="image"  src="<?php echo base_url(); ?>assets/images/icons-edit-64.png" class="iconTable">
 
-                            <input type="image"  src="<?php echo base_url(); ?>assets/images/icons-edit-64.png" class="iconTable">
-                            <input type="image" src="<?php echo base_url(); ?>assets/images/icons-delete-64.png" class="iconTable">
+                            </a>
+                            <a href="<?php echo base_url(); ?>index.php/cardapio_controller/delete">
+                                <input type="image" src="<?php echo base_url(); ?>assets/images/icons-delete-64.png" class="iconTable">
+                            </a>
                         </td>
+
 
                     <?php endforeach; ?>
 
