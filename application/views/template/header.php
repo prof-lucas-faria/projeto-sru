@@ -10,13 +10,13 @@
         <link rel="icon" href="favicon.ico">
         <title><?php echo $titulo ?></title>
         <!-- Bootstrap core CSS -->
-        <link href="<?= base_url() ?>public/css/bootstrap.min.css" rel="stylesheet">
+        <link href="<?= base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <!-- Custom styles for this template -->
-        <link href="<?= base_url() ?>public/css/owl.carousel.css" rel="stylesheet">
-        <link href="<?= base_url() ?>public/css/owl.theme.default.min.css"  rel="stylesheet">
-        <link href="<?= base_url() ?>public/css/style.css" rel="stylesheet">
-        <link href="<?= base_url() ?>public/css/estilo.css" rel="stylesheet">
+        <link href="<?= base_url() ?>assets/css/owl.carousel.css" rel="stylesheet">
+        <link href="<?= base_url() ?>assets/css/owl.theme.default.min.css"  rel="stylesheet">
+        <link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet">
+        <link href="<?= base_url() ?>assets/css/estilo.css" rel="stylesheet">
         <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
         <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
         <script src="<?= base_url() ?>assets/js/ie-emulation-modes-warning.js"></script>
@@ -40,7 +40,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand page-scroll" href="<?= base_url() ?>"><img src="<?= base_url() ?>public/images/logoo.png" class="logo-sru" alt="SRU theme logo"></a>
+                        <a class="navbar-brand page-scroll" href="<?= base_url() ?>"><img src="<?= base_url() ?>assets/images/logoo.png" class="logo-sru" alt="SRU theme logo"></a>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -77,8 +77,8 @@
         </header>
 
         <fieldset>
-            <legend><?php echo $titulo ?></legend>
+            <legend><?php echo $titulo ?>            </legend>
 
 
 
-            <!-- Conteúdo aqui -->
+        <!-- Conteúdo aqui -->

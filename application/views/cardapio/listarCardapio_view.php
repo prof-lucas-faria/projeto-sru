@@ -1,11 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<div class="btn-group-lg btn-group grupoBotoes">
-    <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-lg">Novo<img class="imgNew" src="../../../public/images/new_item.png" width=40 height=20></button>
+<div class="btn-group-sm btn-group grupoBotoes">
+    <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-lg">Novo<img class="imgNew" src="<?= base_url('assets/images/new_item.png') ?>" width=40 height=20></button>
 </div>
 <div class="container table-responsive">
-    <table class="table  table-hover greenTable">
+    <table class="table  table-hover">
         <?php if ($listaDeCardapio->result()) { ?> <!--Se houver item na tabela mostra-->
             <tr class="tr">
                 <th>Data</th>
@@ -30,7 +30,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <td><?php echo $cardapio->salada; ?></td>
                         <td><?php echo $cardapio->sobremesa; ?></td>
                         <td><?php echo $cardapio->suco; ?></td>
-                        <td><?php echo "BOTOES" ?></td>
+                        <td>
+                            <input type="button"  src="<?php echo base_url(); ?>assets/images/icons-edit-64.png" class="iconTable">
+                            <input type="image" src="<?php echo base_url(); ?>assets/images/icons-delete-64.png" class="iconTable">
+                        </td>
 
                     <?php endforeach; ?>
 
