@@ -30,7 +30,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <td><?php echo $cardapio->salada; ?></td>
                         <td><?php echo $cardapio->sobremesa; ?></td>
                         <td><?php echo $cardapio->suco; ?></td>
-                        <td><?php echo "BOTOES" ?></td>
+                        <td>
+                            <div class="icon-table">
+                                <a href="<?php base_url('index.php/cardapio_controller/listar/') ?>"> 
+                                    <img  src="../../../public/images/icons-edit-64.png" width=40 height=20>
+                                </a>
+                                <a href="<?php base_url('index.php/cardapio_controller/')?>"> 
+                                    <img src="../../../public/images/icon-delete-64.png" width=40 height=20>
+                                </a>
+                            </div>
+                        </td>
 
                     <?php endforeach; ?>
 
