@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Cardapio_controller extends CI_Controller {
 
     public function index() {
-        $this->listar();
+        
     }
 
     public function listar() {
@@ -92,11 +92,11 @@ class Cardapio_controller extends CI_Controller {
             if ($this->cardapio_model->store($dados, $id)) {
                 $variaveis['titulo'] = "Sucesso";
                 $variaveis['mensagem'] = "Dados gravados com sucesso!";
-                $this->template->show('errors/v_sucesso', $variaveis);
+                $this->template->show('v_sucesso', $variaveis);
             } else {
                 $variaveis['titulo'] = "Falha";
                 $variaveis['mensagem'] = "Ocorreu um erro. Por favor, tente novamente.";
-                $this->template->show('errors/v_erro', $variaveis);
+                $this->template->show('v_erro', $variaveis);
             }
         }
     }

@@ -5,7 +5,7 @@
 class Acesso_model extends CI_Model {
     
     public function getColaboradores() {
-        return $this->db->get('AcessoRestrito')->result_array();
+        return $this->db->get('AcessoRestrito');
         
     }
     

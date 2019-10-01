@@ -1,15 +1,14 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Usuario_model extends CI_Model{    
     
     // Metodo para listar todos os usuários da tabela Usuario do banco SRU
-    public function listarUsuariosTodos(){
-        return $this->db->get('Usuario')->result_array();
+    public function listarTodos(){
+        return $this->db->get('Usuario');
     }
 
     // Metodo para listar os usuários por nome utilizado pela classe controler pesquisaUsuario
-    public function listarUsuariosNome($lista){
+    public function listarNome($lista){
 
         if(empty($lista))
             return array();

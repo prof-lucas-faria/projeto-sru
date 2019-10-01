@@ -4,10 +4,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="btn-group-lg btn-group grupoBotoes">
     <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-lg">Novo<img class="imgNew" src="../../../public/images/new_item.png" width=40 height=20></button>
 </div>
-<div class="container table-responsive">
-    <table class="table  table-hover greenTable">
+<div class="container">
+    <table class='table'>
         <?php if ($listaDeCardapio->result()) { ?> <!--Se houver item na tabela mostra-->
-            <tr class="tr">
+            <tr>
                 <th>Data</th>
                 <th>Nome</th>
                 <th>Prato principal</th>
@@ -16,48 +16,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <th>Salada</th>
                 <th>Sobremesa</th>
                 <th>Suco</th>
-                <th>Ação</th>
+                 <th>Ação</th>
             </tr>
+            <?php foreach ($listaDeCardapio->result() as $cardapio) : ?>
+                <tr>                
+                    <td><?php echo $cardapio->data; ?></td>
+                    <td><?php echo $cardapio->nomeCardapio; ?></td>
+                    <td><?php echo $cardapio->pratoPrincipal; ?></td>
+                    <td><?php echo $cardapio->guarnicao; ?></td>
+                    <td><?php echo $cardapio->acompanhamento; ?></td>
+                    <td><?php echo $cardapio->salada; ?></td>
+                    <td><?php echo $cardapio->sobremesa; ?></td>
+                    <td><?php echo $cardapio->suco; ?></td>
+                    <td><?php echo "BOTOES" ?></td>
 
-            <tbody id="tbody">
-                <?php foreach ($listaDeCardapio->result() as $cardapio) : ?>
-                    <tr>                
-                        <td><?php echo $cardapio->data; ?></td>
-                        <td><?php echo $cardapio->nomeCardapio; ?></td>
-                        <td><?php echo $cardapio->pratoPrincipal; ?></td>
-                        <td><?php echo $cardapio->guarnicao; ?></td>
-                        <td><?php echo $cardapio->acompanhamento; ?></td>
-                        <td><?php echo $cardapio->salada; ?></td>
-                        <td><?php echo $cardapio->sobremesa; ?></td>
-                        <td><?php echo $cardapio->suco; ?></td>
-                        <td>
-                            <div class="icon-table">
-                                <a href="<?php base_url('index.php/cardapio_controller/listar/') ?>"> 
-                                    <img  src="../../../public/images/icons-edit-64.png" width=40 height=20>
-                                </a>
-                                <a href="<?php base_url('index.php/cardapio_controller/')?>"> 
-                                    <img src="../../../public/images/icon-delete-64.png" width=40 height=20>
-                                </a>
-                            </div>
-                        </td>
+                <?php endforeach; ?>
 
-                    <?php endforeach; ?>
-
-                </tr>  
-            <tfoot>
-                <tr>
-                    <td colspan="10">
-                        <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
-                    </td>
-                </tr>
-            </tfoot>
-            </tbody>
+            </tr>
             <?php
         } else {
             echo "<div id=\"failMessage\"> <h4 > Nehum item cadastrado </h4> </div>";
         }
         ?>
-
+            
     </table>
 </div>
 

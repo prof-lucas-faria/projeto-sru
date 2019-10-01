@@ -23,8 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-// URL do projeto SRU
-$config['base_url'] = 'http://localhost/projeto-sru/';
+$config['base_url'] = 'http://localhost/sru/';
 
 /*
 |--------------------------------------------------------------------------
@@ -325,8 +324,7 @@ $config['cache_query_string'] = FALSE;
 | https://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-// chave encryptada para utilização das senhas do projeto SRU
-$config['encryption_key'] = 'vxQQ8XJvt4m45WaLaJ6uSQ??HtvTJv?F';
+$config['encryption_key'] = 'qPTMRTGmFxkYnfFID6WzwLXh1ZltcVj2';
 
 /*
 |--------------------------------------------------------------------------

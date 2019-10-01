@@ -2,12 +2,5 @@
     Require all denied
 </IfModule>
 <IfModule !authz_core_module>
-    RewriteEngine on
-</IfModule>
-<IfModule !authz_core_module>
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-</IfModule>
-<IfModule !authz_core_module>
-    RewriteRule .* index.php/$1 [PT,L]
+    Deny from all
 </IfModule>
