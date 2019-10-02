@@ -99,7 +99,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="row">
 
                             <?= form_open('cardapio_controller/store') ?>
-                           
+                           <?php echo validation_errors()?>
                             <div class="form-group">
                                 <label for="data">Data:</label>
                                 <input type="text" name="data" placeholder="Ex.: dd/mm/aaaa" id="data" class="form-control" autofocus='true' requiried="true" value="<?= set_value('data') ?>"/>

@@ -9,10 +9,10 @@ class Cardapio_controller extends CI_Controller {
     }
 
     public function listar() {
-       // $this->load->helper('form'); //CARREGA O HELPER DE FORMULARIO
+        // $this->load->helper('form'); //CARREGA O HELPER DE FORMULARIO
         $data['titulo'] = "Cardápio"; //titulo da página
-        
-        $this->load->model('cardapio_model');//carrega o model cardapio
+
+        $this->load->model('cardapio_model'); //carrega o model cardapio
         $data['listaDeCardapio'] = $this->cardapio_model->get();
         $this->template->show('cardapio/listarCardapio_view', $data);
     }
@@ -44,7 +44,7 @@ class Cardapio_controller extends CI_Controller {
     public function validator() {
         $this->load->library('form_validation');
         $regras = array(
-            array('field' => 'data', 'label' => 'Data', 'rules' => 'required|date'), 
+            array('field' => 'data', 'label' => 'Data', 'rules' => 'required|date'),
             array('field' => 'nomeCardapio', 'label' => 'Nome', 'rules' => 'required'),
             array('field' => 'pratoPrincipal', 'label' => 'Prato', 'rules' => 'required'),
             array('field' => 'guarnicao', 'label' => 'Guarnição', 'rules' => 'required'),
@@ -59,9 +59,14 @@ class Cardapio_controller extends CI_Controller {
     public function store() {
         $this->load->model('cardapio_model');
         $this->validator();
+        $this->form_validation->set_error_delimiters('<div class="alert alert-danger" role="alert">' , ' </div> ');
         if ($this->form_validation->run() == FALSE) {
+            
             $data['titulo'] = 'Tente novamente';
             $data['listaDeCardapio'] = $this->cardapio_model->get();
+           echo "<script>
+                    $('#pagina1').modal('show');
+                </script>";
             $this->template->show('cardapio/listarCardapio_view', $data);
         } else {
 
