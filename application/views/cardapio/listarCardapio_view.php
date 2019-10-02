@@ -94,12 +94,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="modal-body">
 
                 <div class="container-fluid">
-                    <h4 class="text-center">Cardapio</h4>
+                   
                     <div class="col-md-6 col-md-offset-3">
                         <div class="row">
 
                             <?= form_open('cardapio_controller/store') ?>
-                            <div class="row"><hr></div>
+                           
                             <div class="form-group">
                                 <label for="data">Data:</label>
                                 <input type="text" name="data" placeholder="Ex.: dd/mm/aaaa" id="data" class="form-control" autofocus='true' requiried="true"/>
@@ -132,7 +132,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <label for="suco">Suco</label>
                                 <input type="suco" name="suco" id="suco" class="form-control" />
                             </div>
-                            <div class="form-group text-right">
+                            <div class=" btn-group botoesFormulario">
                                 <input type="submit" value="Salvar" class="btn btn-success" />
                                 <input type="button" da value="Limpar" onclick="limpa_formulario()" class="btn btn-info" />
                                 <input type="button" da value="Sair" data-dismiss="modal" class="btn btn-danger" />

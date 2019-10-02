@@ -13,13 +13,13 @@
         <link href="<?= base_url() ?>assets/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <!-- Custom styles for this template -->
-        <link href="<?= base_url() ?>assets/css/owl.carousel.css" rel="stylesheet">
-        <link href="<?= base_url() ?>assets/css/owl.theme.default.min.css"  rel="stylesheet">
-        <link href="<?= base_url() ?>assets/css/style.css" rel="stylesheet">
-        <link href="<?= base_url() ?>assets/css/estilo.css" rel="stylesheet">
+        <link href="<?= base_url('assets/css/owl.carousel.css') ?>" rel="stylesheet">
+        <link href="<?= base_url('assets/css/owl.theme.default.min.css') ?>"  rel="stylesheet">
+        <link href="<?= base_url('assets/css/style.css') ?>" rel="stylesheet">
+        <link href="<?= base_url('assets/css/estilo.css') ?>" rel="stylesheet">
         <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
         <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-        <script src="<?= base_url() ?>assets/js/ie-emulation-modes-warning.js"></script>
+        <script src="<?= base_url('assets/js/ie-emulation-modes-warning.js') ?>"></script>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -75,13 +75,6 @@
                 <!-- /.container-fluid -->
             </nav>
         </header>
-        <script>
-            jQuery(function ($) {
-                $("#data").mask("99/99/9999");
-                $("#campoTelefone").mask("(999) 999-9999");
-                $("#campoSenha").mask("***-****");
-            });
-        </script>
         <fieldset>
             <legend><?php echo $titulo ?>            </legend>
 

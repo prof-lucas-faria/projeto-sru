@@ -60,6 +60,42 @@ table tfoot .links a{
     border-radius: 5px;
 }
 /* fim conf de tabelas*/
+
+
+/* inicio @media*/
+@media (min-width:370px) {
+
+    .botoesFormulario{
+        margin-left:0%;
+    }
+
+}
+
+@media (min-width:558px) {
+
+    .botoesFormulario{
+        margin-left:50%;
+    }
+    .grupoBotoes{
+        padding-bottom: 20px;
+        margin-left: 8%;
+
+    }
+}
+
+@media (min-width:903px) {
+
+    .botoesFormulario{
+        margin-left:55%;
+    }
+    .grupoBotoes{
+        padding-bottom: 20px;
+        margin-left: 31%;
+
+    }
+}
+/* fim @media*/
+
 .campoBusca {
 
 }
@@ -72,7 +108,7 @@ table tfoot .links a{
 
 .grupoBotoes{
     padding-bottom: 20px;
-    margin-left: 8%;
+    margin-left: 1%;
 
 }
 
@@ -97,3 +133,9 @@ legend{
 
 }
 
+.botoesFormulario{
+    margin-left: 9%;
+}
+h5{
+
+}
