@@ -102,35 +102,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                            
                             <div class="form-group">
                                 <label for="data">Data:</label>
-                                <input type="text" name="data" placeholder="Ex.: dd/mm/aaaa" id="data" class="form-control" autofocus='true' requiried="true"/>
+                                <input type="text" name="data" placeholder="Ex.: dd/mm/aaaa" id="data" class="form-control" autofocus='true' requiried="true" value="<?= set_value('data') ?>"/>
                             </div>
                             <div class="form-group">
                                 <label for="nomeCardapio">Nome :</label>
-                                <input type="text" name="nomeCardapio" id="nomeCardapio" class="form-control" autofocus='true' requiried="true"/>
+                                <input type="text" name="nomeCardapio" id="nomeCardapio" class="form-control" autofocus='true' requiried="true" value="<?= set_value('nomeCardapio') ?>"/>
                             </div>
                             <div class="form-group ">
                                 <label for="pratoPrincipal">Prato principal: </label>
-                                <input type="text" name="pratoPrincipal" id="pratoPrincipal" class="form-control" />
+                                <input type="text" name="pratoPrincipal" id="pratoPrincipal" class="form-control" value="<?= set_value('pratoPrincipal') ?>"/>
                             </div>
                             <div class="form-group">
                                 <label for="guarnicao">Guarnição</label>
-                                <input type="guarnicao" name="guarnicao" id="guarnicao" class="form-control" />
+                                <input type="guarnicao" name="guarnicao" id="guarnicao" class="form-control" value="<?= set_value('guarnicao') ?>" />
                             </div>
                             <div class="form-group">
                                 <label for="acompanhamento">Acompanhamento</label>
-                                <input type="acompanhamento" name="acompanhamento" id="acompanhamento" class="form-control">
+                                <input type="acompanhamento" name="acompanhamento" id="acompanhamento" class="form-control" value="<?= set_value('acompanhamento') ?>">
                             </div>
                             <div class="form-group">
                                 <label for="salada">Salada</label>
-                                <input type="salada" name="salada" id="salada" class="form-control" />
+                                <input type="salada" name="salada" id="salada" class="form-control" value="<?= set_value('suco') ?>" />
                             </div>
                             <div class="form-group">
                                 <label for="sobremesa">Sobremesa</label>
-                                <input type="sobremesa" name="sobremesa" id="sobremesa" class="form-control" />
+                                <input type="sobremesa" name="sobremesa" id="sobremesa" value="<?= set_value('salada') ?>" class="form-control" />
                             </div>
                             <div class="form-group">
                                 <label for="suco">Suco</label>
-                                <input type="suco" name="suco" id="suco" class="form-control" />
+                                <input type="suco" name="suco" id="suco" value="<?= set_value('suco') ?>" class="form-control" />
                             </div>
                             <div class=" btn-group botoesFormulario">
                                 <input type="submit" value="Salvar" class="btn btn-success" />

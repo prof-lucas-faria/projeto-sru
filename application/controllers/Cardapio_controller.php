@@ -44,6 +44,7 @@ class Cardapio_controller extends CI_Controller {
     public function validator() {
         $this->load->library('form_validation');
         $regras = array(
+            array('field' => 'data', 'label' => 'Data', 'rules' => 'required|date'), 
             array('field' => 'nomeCardapio', 'label' => 'Nome', 'rules' => 'required'),
             array('field' => 'pratoPrincipal', 'label' => 'Prato', 'rules' => 'required'),
             array('field' => 'guarnicao', 'label' => 'Guarnição', 'rules' => 'required'),
