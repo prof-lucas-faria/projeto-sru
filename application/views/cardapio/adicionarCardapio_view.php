@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="form-group">
                 <label for="guarnicao">Guarnição</label>
-                <input type="guarnicao" name="guarnicao" id="email" class="form-control" />
+                <input type="text" name="guarnicao" id="guarnicao" class="form-control" />
             </div>
             <div class="form-group">
                 <label for="acompanhamento">Acompanhamento</label>
@@ -29,15 +29,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="form-group">
                 <label for="salada">Salada</label>
-                <input type="salada" name="salada" id="email" class="form-control" />
+                <input type="salada" name="salada" id="salada" class="form-control" />
             </div>
             <div class="form-group">
                 <label for="sobremesa">Sobremesa</label>
-                <input type="sobremesa" name="sobremesa" id="email" class="form-control" />
+                <input type="sobremesa" name="sobremesa" id="sobremesa" class="form-control" />
             </div>
             <div class="form-group">
                 <label for="suco">Suco</label>
-                <input type="suco" name="suco" id="email" class="form-control" />
+                <input type="suco" name="suco" id="suco" class="form-control" />
             </div>
             <div class="form-group text-right">
                 <input type="submit" value="Salvar" class="btn btn-success" />

@@ -75,10 +75,16 @@
                 <!-- /.container-fluid -->
             </nav>
         </header>
-
+        <script>
+            jQuery(function ($) {
+                $("#data").mask("99/99/9999");
+                $("#campoTelefone").mask("(999) 999-9999");
+                $("#campoSenha").mask("***-****");
+            });
+        </script>
         <fieldset>
             <legend><?php echo $titulo ?>            </legend>
 
 
 
-        <!-- Conteúdo aqui -->
+            <!-- Conteúdo aqui -->

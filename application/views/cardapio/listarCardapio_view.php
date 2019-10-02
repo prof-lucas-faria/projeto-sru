@@ -1,8 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+
+
+
 <div class="btn-group-sm btn-group grupoBotoes">
-    <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-lg">Novo<img class="imgNew" src="<?= base_url('assets/images/new_item.png') ?>" width=40 height=20></button>
+
+    <button type="button" class="btn btn-success btn_modal" data-toggle="modal" data-target=".bd-example-modal-lg">Novo<img class="imgNew" src="<?= base_url('assets/images/new_item.png') ?>" width=40 height=20></button>
 </div>
 <div class="container table-responsive">
     <table class="table  table-hover">
@@ -31,8 +35,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <td><?php echo $cardapio->sobremesa; ?></td>
                         <td><?php echo $cardapio->suco; ?></td>
                         <td>
-                            <a href="<?php echo base_url(); ?>index.php/cardapio_controller/store">
-                                <input type="image"  src="<?php echo base_url(); ?>assets/images/icons-edit-64.png" class="iconTable">
+                            <?php
+                            $array = [
+                                'data' => $cardapio->data,
+                                'nomeCardapio' => $cardapio->nomeCardapio,
+                                'pratoPrincipal' => $cardapio->pratoPrincipal,
+                                'guarnicao' => $cardapio->guarnicao,
+                                'acompanhamento' => $cardapio->acompanhamento,
+                                'salada' => $cardapio->salada,
+                                'sobremesa' => $cardapio->sobremesa,
+                                'suco' => $cardapio->suco
+                            ];
+                            $string_array = implode("|", $array);
+                            ?>
+
+                            <a >
+                                <input type="image" onclick="carregaModalCardapio(<?php echo $string_array; ?>)" data-toggle="modal" data-target=".bd-example-modal-lg" src="<?php echo base_url(); ?>assets/images/icons-edit-64.png" class="iconTable">
 
                             </a>
                             <a href="<?php echo base_url(); ?>index.php/cardapio_controller/delete">
@@ -63,7 +81,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- Modal -->
 
-<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div id="pagina1" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content"><link href="<?= base_url() ?>public/css/estilo.css" rel="stylesheet">
             <div class="modal-header">
@@ -84,7 +102,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="row"><hr></div>
                             <div class="form-group">
                                 <label for="data">Data:</label>
-                                <input type="text" name="data" id="data" class="form-control" autofocus='true' requiried="true"/>
+                                <input type="text" name="data" placeholder="Ex.: dd/mm/aaaa" id="data" class="form-control" autofocus='true' requiried="true"/>
                             </div>
                             <div class="form-group">
                                 <label for="nomeCardapio">Nome :</label>
@@ -96,26 +114,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                             <div class="form-group">
                                 <label for="guarnicao">Guarnição</label>
-                                <input type="guarnicao" name="guarnicao" id="email" class="form-control" />
+                                <input type="guarnicao" name="guarnicao" id="guarnicao" class="form-control" />
                             </div>
                             <div class="form-group">
                                 <label for="acompanhamento">Acompanhamento</label>
-                                <input type="acompanhamento" name="acompanhamento" id="email" class="form-control">
+                                <input type="acompanhamento" name="acompanhamento" id="acompanhamento" class="form-control">
                             </div>
                             <div class="form-group">
                                 <label for="salada">Salada</label>
-                                <input type="salada" name="salada" id="email" class="form-control" />
+                                <input type="salada" name="salada" id="salada" class="form-control" />
                             </div>
                             <div class="form-group">
                                 <label for="sobremesa">Sobremesa</label>
-                                <input type="sobremesa" name="sobremesa" id="email" class="form-control" />
+                                <input type="sobremesa" name="sobremesa" id="sobremesa" class="form-control" />
                             </div>
                             <div class="form-group">
                                 <label for="suco">Suco</label>
-                                <input type="suco" name="suco" id="email" class="form-control" />
+                                <input type="suco" name="suco" id="suco" class="form-control" />
                             </div>
                             <div class="form-group text-right">
                                 <input type="submit" value="Salvar" class="btn btn-success" />
+                                <input type="button" da value="Limpar" onclick="limpa_formulario()" class="btn btn-info" />
+                                <input type="button" da value="Sair" data-dismiss="modal" class="btn btn-danger" />
                             </div>
                             <input type='hidden' name="id" value="<?= set_value('id') ?: (isset($id) ? $id : ''); ?>">
                             <?= form_close(); ?>
@@ -123,13 +143,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="row"><hr></div>
 
                     </div>	
-                </div>
-
-                <div class="modal-footer container-fluid">                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-
-                </div>
+                
             </div>
 
         </div>
     </div>
 </div>
+

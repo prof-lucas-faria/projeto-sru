@@ -9,10 +9,10 @@ class Cardapio_controller extends CI_Controller {
     }
 
     public function listar() {
-        $this->load->helper('form'); //CARREGA O HELPER DE FORMULARIO
+       // $this->load->helper('form'); //CARREGA O HELPER DE FORMULARIO
         $data['titulo'] = "Cardápio"; //titulo da página
         
-        $this->load->model('cardapio_model');
+        $this->load->model('cardapio_model');//carrega o model cardapio
         $data['listaDeCardapio'] = $this->cardapio_model->get();
         $this->template->show('cardapio/listarCardapio_view', $data);
     }
