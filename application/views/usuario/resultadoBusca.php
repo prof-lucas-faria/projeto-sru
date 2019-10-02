@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="container table-responsive">
     <table class="table  table-hover">
-        <?php if ($usuarios->result()) { ?> <!--Se houver item na tabela mostra-->
+        <?php if ($listagem->result()) { ?> <!--Se houver item na tabela mostra-->
             <tr class="tr">
                 <th>Matricula</th>
                 <th>Nome</th>
@@ -15,13 +15,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </tr>
 
             <tbody id="tbody">
-                <?php foreach ($usuarios->result() as $usuario) : ?>
+                <?php foreach ($listagem->result() as $resultado) : ?>
                     <tr>                
-                        <td><?php echo $usuario->matricula; ?></td>
-                        <td><?php echo $usuario->nome; ?></td>
-                        <td><?php echo $usuario->genero; ?></td>
-                        <td><?php echo $usuario->cidadeOrigem; ?></td>
-                        <td><?php echo $usuario->curso; ?></td>                        
+                        <td><?php echo $resultado->matricula; ?></td>
+                        <td><?php echo $resultado->nome; ?></td>
+                        <td><?php echo $resultado->genero; ?></td>
+                        <td><?php echo $resultado->cidadeOrigem; ?></td>
+                        <td><?php echo $resultado->curso; ?></td>                        
                         <td>
                             <a href="<?php echo base_url(); ?>index.php/cardapio_controller/store">
                                 <input type="image"  src="<?php echo base_url(); ?>assets/images/icons-edit-64.png" class="iconTable">
@@ -67,3 +67,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 
 </div>
+
