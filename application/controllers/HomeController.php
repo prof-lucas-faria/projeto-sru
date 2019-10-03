@@ -18,9 +18,9 @@ class HomeController extends CI_Controller {
 
         $this->load->model('usuario_model');
 
-        $data['listagem'] = $this->usuario_model->listarMatricula();
+        $data['listagem'] = $this->usuario_model->getMatricula();
         
-        $data['titulo'] = "Home"; //titulo da página
+        $data['titulo'] = "Pesquisa"; //titulo da página
         $this->template->show('usuario/resultadoBusca', $data);
 
     }

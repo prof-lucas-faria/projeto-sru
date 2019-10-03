@@ -25,4 +25,12 @@ class Usuario_model extends CI_Model {
 
 }
 
+public function getMatricula($matricula = null){
+
+    if ($matricula == null){
+        return $this->db->get('Usuario');
+    }
+
+}
+
 }
