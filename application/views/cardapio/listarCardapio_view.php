@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="btn-group-sm btn-group grupoBotoes">
 
     <a href="<?= base_url('index.php/cardapio_controller/novo') ?>">
-        <button type="button"  class="btn btn-success btn_modal" >Novo<img class="imgNew" src="<?= base_url('assets/images/new_item.png') ?>" width=40 height=20></button>
+        <button type="button"  class="btn btn-success btn_modal" >Novo<img class="imgNew" src="<?= base_url('assets/images/new_item.png') ?>" ></button>
     </a>
 </div>
 <div class="container table-responsive">
@@ -39,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <td>
 
 
-                            <a >
+                            <a href="<?php echo base_url(); ?>index.php/cardapio_controller/store?id=<?php echo $cardapio->idCardapio; ?>">
                                 <input type="image" onclick="" data-toggle="modal" data-target=".bd-example-modal-lg" src="<?php echo base_url(); ?>assets/images/icons-edit-64.png" class="iconTable">
 
                             </a>
