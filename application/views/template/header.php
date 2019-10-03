@@ -52,7 +52,11 @@
                                 <a class="page-scroll" href="<?= base_url() ?>">Home</a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="<?= base_url('index.php/cardapio_controller/listar/') ?>">Cardápio</a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Cardápio</a>
+                                <div class="dropdown-menu drop-content">
+                                    <a href="<?= base_url('index.php/cardapio_controller/novo/') ?>">Novo <img class="imgNew" src="<?= base_url('assets/images/new_item.png') ?>" > </a>
+                                    <a href="<?= base_url('index.php/cardapio_controller/listar/') ?>">Listar <img class="imgNew" src="<?= base_url('assets/images/icons-list-64.png') ?>" ></a>
+                                </div>
                             </li>
 
 

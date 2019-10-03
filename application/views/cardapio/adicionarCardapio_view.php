@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <input type="submit" value="Salvar" class="btn btn-success" />
                 <input type="button" value="Limpar" onclick="limpa_formulario()" class="btn btn-info" />
                 <a href="<?= base_url('index.php/cardapio_controller/listar/') ?>">
-                   <input type="button" value="Voltar" data-dismiss="modal" class="btn btn-danger "  />
+                    <input type="button" value="Voltar" data-dismiss="modal" class="btn btn-danger "  />
                 </a>            </div>
             <input type='hidden' name="id" value="<?= set_value('id') ?: (isset($id) ? $id : ''); ?>">
             <?= form_close(); ?>

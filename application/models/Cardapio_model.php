@@ -6,7 +6,7 @@ class Cardapio_model extends CI_Model {
 
     private $id;
     private $data;
-    private $nome;
+    private $nomeCardapio;
     private $pratoPrincipal;
     private $guarnicao;
     private $acompanhamento;
