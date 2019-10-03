@@ -59,7 +59,6 @@
                                 </div>
                             </li>
 
-
                             <li>
                                 <a class="page-scroll" href="#">Relatório</a>
                             </li>  
@@ -70,7 +69,10 @@
                                 <a class="page-scroll" href="#">Contatos</a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="#">Login</a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
+                                <div class="dropdown-menu drop-content">
+                                    <a href="<?= base_url('index.php/acesso_controller/resultadoAcesso/') ?>">Listar <img class="imgNew" src="<?= base_url('assets/images/icons-list-64.png') ?>" ></a>
+                                </div>
                             </li>  
                         </ul>
                     </div>

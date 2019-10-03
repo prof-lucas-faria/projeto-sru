@@ -24,14 +24,12 @@ class Acesso_model extends CI_Model {
         return $query->result_array();
 
     }
+    
+    public function getNome($nomeColaborador = null){
+
+    if ($nomeColaborador == null){
+        return $this->db->get('AcessoRestrito');
+    }
+
 }
-
-//$colaborador1 = new Acesso_model("1", "Ana", "123.234.567-89", "ana@gmail.com", "123456", "Nutricionista");
-
-//echo "<pre>";
-
-//print_r($colaborador1);
-
-//echo "</pre>";
-
-?>
+}
