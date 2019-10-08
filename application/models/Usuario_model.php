@@ -8,7 +8,7 @@ class Usuario_model extends CI_Model {
     }
 
     // Metodo para listar os usuários por matricula utilizado pela classe controler HomeController
-    public function listarMatricula() {
+    public function getMatricula($lista) {
 
         if (empty($lista)) {
             return array();
@@ -19,18 +19,20 @@ class Usuario_model extends CI_Model {
         $this->db->like('matricula', $lista);
 
         $query = $this->db->get('Usuario');
-//
-        return $query->result_array();
-//    }
 
+        return $query->result();
 }
 
-public function getMatricula($matricula = null){
+    // if ($matricula == null){
+    //     return $this->db->get('Usuario');
 
-    if ($matricula == null){
-        return $this->db->get('Usuario');
-    }
+    // } else{
 
-}
+    //     $matricula = $this->input->post('busca');
+    //     $query = $this->db->query("select * from Usuario where matricula = '$matricula'");
+    //     return $query->result();
+    // }    
+    
+
 
 }
