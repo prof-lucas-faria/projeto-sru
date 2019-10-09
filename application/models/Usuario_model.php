@@ -7,6 +7,10 @@ class Usuario_model extends CI_Model
     public function listarTodos(){
         return $this->db->get('Usuario');
     }
+// contador de registro. Ira trazer a contagem da tabela usuario e retorna um inteiro
+    public function get_count() {
+        return $this->db->count_all("Usuario");
+    }
 
     // Metodo para listar os usuários por matricula utilizado pela classe controler HomeController
     public function getMatricula($matricula){
@@ -19,5 +23,13 @@ class Usuario_model extends CI_Model
             $query = $this->db->query("select * from Usuario where matricula = '$matricula'");
             return $query->result();
         }
+    }
+
+    // define o limte de registros exibido na tabela de paginação
+    public function get_limite($limit, $start) {
+        $this->db->limit($limit, $start);
+        $query = $this->db->get("Usuario");
+
+        return $query->result();
     }
 }

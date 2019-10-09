@@ -13,7 +13,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <th>Curso</th>
             <th>Ação</th>
         </tr>
-
+     
+ <?php
+        if(isset($listagem)){
+        ?>
         <tbody id="tbody">
             <?php foreach ($listagem as $resultado) : ?>
                 <tr>
@@ -38,28 +41,24 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <tfoot>
             <tr>
                 <td colspan="10">
-                    <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+                    <div class="links">
+                    <?= $this->pagination->create_links();?>
+                        </div>
                 </td>
             </tr>
         </tfoot>
+       
         </tbody>
         <?php
+        }
         ?>
-
     </table>
 
-</div>
+    <?php
 
-<div class="form-row campoBusca">
+        include("BuscarUsuario.php");
 
-    <div class="form-group form-inline">
-        <form action="<?= base_url('index.php/homecontroller/resultado/') ?>" method='post'>
-
-            <input id="busca" name="busca" placeholder="Digite a matrícula" class="form-control" type="text">
-
-            <button type="submit" class="btn btn-danger">Buscar</button>
-
-        </form>
-    </div>
+    ?>
 
 </div>
+
