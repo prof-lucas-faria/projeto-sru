@@ -1,15 +1,12 @@
 <?php
 
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class HomeController extends CI_Controller {
+class HomeController extends CI_Controller
+{
 
-    public function index() {        
-        
-        $this->load->model('usuario_model');
+    public function index(){
 
-        $data['usuarios'] = $this->usuario_model->listarTodos();
-        
         $data['titulo'] = "Home"; //titulo da página
         $this->template->show('usuario/BuscarUsuario', $data);
     }
@@ -19,10 +16,8 @@ class HomeController extends CI_Controller {
         $this->load->model('usuario_model');
 
         $data['listagem'] = $this->usuario_model->getMatricula($_POST['busca']);
-        
+
         $data['titulo'] = "Pesquisa"; //titulo da página
         $this->template->show('usuario/resultadoBusca', $data);
-
     }
-
 }
