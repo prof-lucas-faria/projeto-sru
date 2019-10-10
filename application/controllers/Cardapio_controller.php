@@ -53,9 +53,10 @@ class Cardapio_controller extends CI_Controller {
             array('field' => 'sobremesa', 'label' => 'Sobremesa', 'rules' => 'required'),
             array('field' => 'suco', 'label' => 'Suco', 'rules' => 'required')
         );
+
         $this->form_validation->set_rules($regras);      
         if ($this->form_validation->run() == FALSE) {
-            $data['titulo'] = 'Novo';
+            $data['titulo'] = 'Erro no Formulario';
             $this->form_validation->set_error_delimiters('<div class="alert alert-danger" role="alert">' , ' </div> ');
             $this->template->show('cardapio/adicionarCardapio_view', $data);
         } else {
@@ -97,6 +98,7 @@ class Cardapio_controller extends CI_Controller {
             }
         }
     }
+
     public function novo() {
         $variaveis['titulo'] = "Novo";
         $this->template->show('cardapio/adicionarCardapio_view',$variaveis);
