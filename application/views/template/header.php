@@ -61,19 +61,16 @@
 
                             <li>
                                 <a class="page-scroll" href="#">Relatório</a>
-                            </li>  
-                            <li>
-                                <a class="page-scroll" href="#">Buscar</a>
-                            </li>  
+                            </li>    
                             <li>
                                 <a class="page-scroll" href="#">Contatos</a>
                             </li>
                             <li>
                                 <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
                                 <div class="dropdown-menu drop-content">
-                                    <a href="<?= base_url('index.php/acesso_controller/resultadoAcesso/') ?>">Listar <img class="imgNew" src="<?= base_url('assets/images/icons-list-64.png') ?>" ></a>
+                                    <a href="<?= base_url('index.php/login_controller/autenticar/') ?>">Tela de Login</a>
                                 </div>
-                            </li>  
+                            </li>          
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->

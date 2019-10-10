@@ -23,4 +23,5 @@ class Acesso_controller extends CI_Controller {
         $this->template->show('acesso/resultadoAcesso', $data);
 
     }
+    
 }
