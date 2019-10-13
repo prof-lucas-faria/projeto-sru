@@ -9,11 +9,20 @@ class Cardapio_controller extends CI_Controller {
     }
 
     public function listar() {
-        // $this->load->helper('form'); //CARREGA O HELPER DE FORMULARIO
-        $data['titulo'] = "Cardápio"; //titulo da página
 
         $this->load->model('cardapio_model'); //carrega o model cardapio
-        $data['listaDeCardapio'] = $this->cardapio_model->get();
+        $config['base_url'] = base_url() . 'index.php/cardapio_controller/listar';
+        $config['total_rows'] = $this->cardapio_model->get_count();
+        $config['per_page'] = 5;
+        $config["uri_segment"] = 3;
+        $config['first_link'] = 'Primeira';
+        $config['last_link'] = 'Última';
+        $config['cur_tag_open'] = '<a>';
+        $config['cur_tag_close'] = '</a>';
+        $page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
+        $data['listaDeCardapio'] = $this->cardapio_model->get_limite($config["per_page"], $page);
+        $this->pagination->initialize($config);
+        $data['titulo'] = "Cardápio"; //titulo da página
         $this->template->show('cardapio/listarCardapio_view', $data);
     }
 
@@ -40,7 +49,7 @@ class Cardapio_controller extends CI_Controller {
      * juntamente com uma mensagem de erro descrevendo o problema.
      *  Esse processo continua até que você envie um formulário válido.
      */
-    
+
     public function store() {
         $this->load->model('cardapio_model');
         $regras = array(
@@ -54,10 +63,10 @@ class Cardapio_controller extends CI_Controller {
             array('field' => 'suco', 'label' => 'Suco', 'rules' => 'required')
         );
 
-        $this->form_validation->set_rules($regras);      
+        $this->form_validation->set_rules($regras);
         if ($this->form_validation->run() == FALSE) {
             $data['titulo'] = 'Erro no Formulario';
-            $this->form_validation->set_error_delimiters('<div class="alert alert-danger" role="alert">' , ' </div> ');
+            $this->form_validation->set_error_delimiters('<div class="alert alert-danger" role="alert">', ' </div> ');
             $this->template->show('cardapio/adicionarCardapio_view', $data);
         } else {
 
@@ -75,7 +84,7 @@ class Cardapio_controller extends CI_Controller {
 //            $cardapio->__set('sobremesa', $this->input->post('sobremesa'));
 //            $cardapio->__set('suco', $this->input->post('suco'));
             // array
-            
+
             $dados = [
                 'data' => $this->input->post('data'),
                 'nomeCardapio' => $this->input->post('nomeCardapio'),
@@ -87,7 +96,7 @@ class Cardapio_controller extends CI_Controller {
                 'suco' => $this->input->post('suco')
             ];
 
-            if ($this->cardapio_model->store($dados, $id )) {
+            if ($this->cardapio_model->store($dados, $id)) {
                 $variaveis['titulo'] = "Sucesso";
                 $variaveis['mensagem'] = "Dados gravados com sucesso!";
                 $this->template->show('errors/v_sucesso', $variaveis);
@@ -101,7 +110,7 @@ class Cardapio_controller extends CI_Controller {
 
     public function novo() {
         $variaveis['titulo'] = "Novo";
-        $this->template->show('cardapio/adicionarCardapio_view',$variaveis);
+        $this->template->show('cardapio/adicionarCardapio_view', $variaveis);
     }
 
 }

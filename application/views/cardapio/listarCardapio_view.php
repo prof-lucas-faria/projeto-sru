@@ -4,15 +4,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 
-<div class="btn-group-sm btn-group grupoBotoes">
+<!--<div class="btn-group-sm btn-group grupoBotoes">
 
     <a href="<?= base_url('index.php/cardapio_controller/novo') ?>">
         <button type="button"  class="btn btn-success btn_modal" >Novo<img class="imgNew" src="<?= base_url('assets/images/new_item.png') ?>" ></button>
     </a>
-</div>
+</div>-->
 <div class="container table-responsive">
     <table class="table  table-hover">
-        <?php if ($listaDeCardapio->result()) { ?> <!--Se houver item na tabela mostra-->
+        <?php if ($listaDeCardapio) { ?> <!--Se houver item na tabela mostra-->
             <tr class="tr">
                 <th>Data</th>
                 <th>Nome</th>
@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </tr>
 
             <tbody id="tbody">
-                <?php foreach ($listaDeCardapio->result() as $cardapio) : ?>
+                <?php foreach ($listaDeCardapio as $cardapio) : ?>
                     <tr>                
                         <td><?php echo $cardapio->data; ?></td>
                         <td><?php echo $cardapio->nomeCardapio; ?></td>
@@ -37,9 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <td><?php echo $cardapio->sobremesa; ?></td>
                         <td><?php echo $cardapio->suco; ?></td>
                         <td>
-
-
-                            <a href="<?php echo base_url(); ?>index.php/cardapio_controller/store?id=<?php echo $cardapio->idCardapio; ?>">
+                            <a >
                                 <input type="image" onclick="" data-toggle="modal" data-target=".bd-example-modal-lg" src="<?php echo base_url(); ?>assets/images/icons-edit-64.png" class="iconTable">
 
                             </a>
@@ -47,15 +45,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <input type="image" src="<?php echo base_url(); ?>assets/images/icons-delete-64.png" class="iconTable">
                             </a>
                         </td>
-
-
                     <?php endforeach; ?>
-
                 </tr>  
             <tfoot>
                 <tr>
                     <td colspan="10">
-                        <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+                        <div class="links">
+                            <?= $this->pagination->create_links(); ?>
+                        </div>
                     </td>
                 </tr>
             </tfoot>
@@ -133,9 +130,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class=" btn-group botoesFormulario">
                                 <input type="submit" value="Salvar" class="btn btn-success" />
                                 <input type="button" value="Limpar" onclick="limpa_formulario()" class="btn btn-info" />
-                                <input type="button" value="Voltar" data-dismiss="modal" class="btn btn-danger "  />
-                            </div>
-                            <input type='hidden' name="id" value="<?= set_value('id') ?: (isset($id) ? $id : ''); ?>">
+                                <a href="<?= base_url('index.php/cardapio_controller/listar/') ?>">
+                                    <input type="button" value="Voltar" data-dismiss="modal" class="btn btn-danger "  />
+                                </a>            </div>
+                            <input type='hidden' name="id" value="<?= set_value('id') ?: (isset($idCardapio) ? $idCardapio : ''); ?>">
                             <?= form_close(); ?>
                         </div>
                         <div class="row"><hr></div>

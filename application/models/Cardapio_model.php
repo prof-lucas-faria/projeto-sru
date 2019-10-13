@@ -32,6 +32,19 @@ class Cardapio_model extends CI_Model {
         $this->$atributo = $valor;
     }
 
+    // contador de registro. Ira trazer a contagem da tabela usuario e retorna um inteiro
+    public function get_count() {
+        return $this->db->count_all("Cardapio");
+    }
+
+    // define o limte de registros exibido na tabela de paginação
+    public function get_limite($limit, $start) {
+        $this->db->limit($limit, $start);
+        $query = $this->db->get("Cardapio");
+
+        return $query->result();
+    }
+
     //$dados. Array que contém os campos a serem inseridos
     //Se for passado o $id via parâmetro, então atualizo o registro em vez de inseri-lo.
     public function store($dados = null, $id = null) {
@@ -52,8 +65,8 @@ class Cardapio_model extends CI_Model {
             }
         }
     }
-    
-    public function get(){
+
+    public function get() {
         return $this->db->get('Cardapio');
     }
 
