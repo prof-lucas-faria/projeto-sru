@@ -20,8 +20,9 @@ class Cardapio_controller extends CI_Controller {
         $config['cur_tag_open'] = '<a>';
         $config['cur_tag_close'] = '</a>';
         $page = ($this->uri->segment(3)) ? $this->uri->segment(3) : 0;
-        $data['listaDeCardapio'] = $this->cardapio_model->get_limite($config["per_page"], $page);
         $this->pagination->initialize($config);
+
+        $data['listaDeCardapio'] = $this->cardapio_model->get_limite($config["per_page"], $page);
         $data['titulo'] = "Cardápio"; //titulo da página
         $this->template->show('cardapio/listarCardapio_view', $data);
     }
