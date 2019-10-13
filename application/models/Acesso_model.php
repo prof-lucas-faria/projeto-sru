@@ -9,7 +9,11 @@ class Acesso_model extends CI_Model {
         
     }
     
-    // Metodo para listar os usuários por nome utilizado pela classe controler pesquisaUsuario
+    public function get_count() {
+        return $this->db->count_all('AcessoRestrito');
+        
+    }
+    
     public function listarColaborador($listar){
 
         if(empty($listar))
@@ -29,7 +33,14 @@ class Acesso_model extends CI_Model {
 
     if ($nomeColaborador == null){
         return $this->db->get('AcessoRestrito');
-    }
+        }
 
-}
+    }
+    
+    public function get_limite($limit, $start) {
+        $this->db->limit($limit, $start);
+        $query = $this->db->get('AcessoRestrito');
+
+        return $query->result();
+    }
 }

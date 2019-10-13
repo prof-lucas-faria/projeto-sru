@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="container table-responsive">
     <table class="table  table-hover">
-        <?php if ($listagem->result()) { ?> <!--Se houver item na tabela mostra-->
+
             <tr class="tr">
                 <th>Nome do Colaborador</th>
                 <th>CPF</th>
@@ -16,9 +16,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <th>Ação</th>
             </tr>
 
-            <tbody id="tbody">
-                <?php foreach ($listagem->result() as $resultado) : ?>
-                    <tr>                
+ <?php
+        if(isset($listagemDeAcesso)){
+        ?>
+        <tbody id="tbody">
+            <?php foreach ($listagemDeAcesso as $resultado) : ?>
+                <tr>              
                         <td><?php echo $resultado->nomeColaborador; ?></td>
                         <td><?php echo $resultado->cpf; ?></td>
                         <td><?php echo $resultado->eMail; ?></td>
@@ -41,14 +44,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <tfoot>
                 <tr>
                     <td colspan="10">
-                        <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+                    <div class="links">
+                    <?= $this->pagination->create_links();?>
+                        </div>
                     </td>
                 </tr>
             </tfoot>
             </tbody>
             <?php
         } else {
-            echo "<div id=\"failMessage\"> <h4 > Nehum item cadastrado </h4> </div>";
+            echo "<div id=\"failMessage\"> <h4 > Nenhum item cadastrado </h4> </div>";
         }
         ?>
 
@@ -59,7 +64,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="form-row campoBusca">    
 
     <div class="form-group form-inline">
-        <form action="<?= base_url('index.php/acessocontroller/resultadoAcesso/') ?>" method='post'>
+        <form action="<?= base_url('index.php/acesso_controller/resultadoAcesso/') ?>" method='post'>
         
             <input id="busca" name="busca" placeholder="Digite o nome" class="form-control" type="text">           
         

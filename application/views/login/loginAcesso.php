@@ -5,8 +5,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="col-md-6 col-md-offset-3">
         <div class="row">
             
-            <?= form_open('login_controller/autenticar/') ?>
-            <?php //echo validation_errors() ?>   
             
             <?php if($this->session->flashdata("success")) : ?>
                 <p class="alert alert-success"><?= $this->session->flashdata("success") ?></p>
@@ -35,9 +33,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>  
                 
   </br>
+  
+        <?= form_open('login_controller/autenticar/') ?>
+  
         <div class="col-sm-12">
           <?php echo form_error('eMail'); ?>            
-          <input type="eMail" class="form-control" id="email" placeholder="Digite o email" name="eMail" value="<?= set_value('eMail') ?>"> <!--Autofocus= Assim que a página abre, já cai dentro do campo email -->
+          <input type="eMail" class="form-control" id="eMail" placeholder="Digite o email" name="eMail" value="<?= set_value('eMail') ?>"> <!--Autofocus= Assim que a página abre, já cai dentro do campo email -->
         </div>
 
   </br>
@@ -52,19 +53,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </label>
       </div>
 
-    <div class="col-sm-15">
-        <div class="dropdown-menu drop-content">
-            <a href="<?= base_url('index.php/usuario/BuscarUsuario.php/') ?>"><h6>Criar novo usuário</h6></a>
-        </div>        
-    </div>
-
-      <div class="form-group">
+        <div class="form-group">
           <button type="submit" class="btn btn-lg btn-primary btn-block">
-            <a href="<?= base_url('index.php/acesso_controller/resultadoAcesso/') ?>"><h6>Acessar</button> <!--btn-block- Coloca o botão para a página toda (Classe do próprio Bootstrap) -->
+              <a href="<?= base_url('index.php/acesso_controller/resultadoAcesso/') ?>"></a><h6>Acessar</h6></button> <!--btn-block- Coloca o botão para a página toda (Classe do próprio Bootstrap) -->
       </div>
-        </div>  
 
         </div>
     </div>
+    
 </div>
- <?= form_close(); ?>
+<?= form_close(); ?>

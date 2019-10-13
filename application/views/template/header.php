@@ -70,7 +70,13 @@
                                 <div class="dropdown-menu drop-content">
                                     <a href="<?= base_url('index.php/login_controller/autenticar/') ?>">Tela de Login</a>
                                 </div>
-                            </li>          
+                            </li> 
+                            <li>
+                                <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teste</a>
+                                <div class="dropdown-menu drop-content">
+                                    <a href="<?= base_url('index.php/acesso_controller/resultadoAcesso/') ?>">Listar</a>
+                                </div>
+                            </li>        
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->

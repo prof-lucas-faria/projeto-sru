@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <td><?php echo $colaboradores->cpf; ?></td>
                         <td><?php echo $colaboradores->eMail; ?></td>
                         <td><?php echo $colaboradores->senha; ?></td> 
-                        <td><?php echo $resultado->Perfil_idPerfil; ?></td>                          
+                        <td><?php echo $colaboradores->Perfil_idPerfil; ?></td>                          
                         <td>
                             <a href="<?php echo base_url(); ?>index.php/cardapio_controller/store">
                                 <input type="image"  src="<?php echo base_url(); ?>assets/images/icons-edit-64.png" class="iconTable">
@@ -40,7 +40,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <tfoot>
                 <tr>
                     <td colspan="10">
-                        <div class="links"><a href="#">&laquo;</a> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a href="#">&raquo;</a></div>
+                    <div class="links">
+                    <?= $this->pagination->create_links();?>
+                        </div>
                     </td>
                 </tr>
             </tfoot>
@@ -57,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="form-row campoBusca">    
 
     <div class="form-group form-inline">
-        <form action="<?= base_url('index.php/acessocontroller/resultadoAcesso/') ?>" method='post'>        
+        <form action="<?= base_url('index.php/acesso_controller/resultadoAcesso/') ?>" method='post'>        
             <input id="busca" name="busca" placeholder="Digite o nome" class="form-control" type="text">        
             <button type="submit" class="btn btn-danger">Buscar</button>            
         </form>
