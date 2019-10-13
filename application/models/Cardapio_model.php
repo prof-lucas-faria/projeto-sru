@@ -66,6 +66,11 @@ class Cardapio_model extends CI_Model {
         }
     }
 
+    function deletar($id) {
+        $this->db->where('id', $id);
+        return $this->db->delete('Cardapio');
+    }
+
     public function get() {
         return $this->db->get('Cardapio');
     }
