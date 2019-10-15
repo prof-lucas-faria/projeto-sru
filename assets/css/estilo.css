@@ -8,6 +8,7 @@ table{
     background-color: #D4EED1;
     width: 100%;
     text-align: center;
+    margin-top: 3%;
 }
 table td, th {
     border: 1px solid #943954;
@@ -124,9 +125,7 @@ table tfoot .links a{
 }
 /* fim Menu dropDown*/
 
-.campoBusca {
 
-}
 .imgNew{
     width: 20px;
     height: 20px;
@@ -186,4 +185,14 @@ legend{
 
 .glyphicon-calendar {
     font-size: 20px
+}
+
+.campoBusca {
+    margin-left: 56%;
+    margin-top: -1%;
+}
+
+.homeBusca{
+    margin-top: 10%;
+    margin-left: 40%;
 }
