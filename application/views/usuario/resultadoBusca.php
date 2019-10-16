@@ -26,12 +26,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <td><?php echo $resultado->cidadeOrigem; ?></td>
                     <td><?php echo $resultado->curso; ?></td>
                     <td>
-                        <a href="<?php echo base_url(); ?>index.php/cardapio_controller/store">
-                            <input type="image" src="<?php echo base_url(); ?>assets/images/icons-edit-64.png" class="iconTable">
+                        <a href="<?php echo base_url(); ?>index.php/movimento_controller/entrada/">
+                            <input type="image" src="<?php echo base_url(); ?>assets/images/entrada.png" class="iconTable">
 
                         </a>
-                        <a href="<?php echo base_url(); ?>index.php/cardapio_controller/delete">
-                            <input type="image" src="<?php echo base_url(); ?>assets/images/icons-delete-64.png" class="iconTable">
+                        <a href="<?php echo base_url(); ?>index.php/movimento_controller/saida/">
+                            <input type="image" src="<?php echo base_url(); ?>assets/images/saida.png" class="iconTable">
                         </a>
                     </td>
 
@@ -55,9 +55,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     </table>
 
     <?php
-
         include("BuscarUsuario.php");
-
     ?>
 
 </div>

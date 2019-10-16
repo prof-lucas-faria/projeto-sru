@@ -43,4 +43,6 @@ class HomeController extends CI_Controller
         $data['titulo'] = "Pesquisa"; //titulo da página
         $this->template->show('usuario/resultadoBusca', $data);
     }
+
+    
 }
