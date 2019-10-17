@@ -2,10 +2,13 @@
 
 class Movimento_model extends CI_Model{   
 
-    public function setEntrada(){
+    public function setEntrada($id){
 
-        $query = $this->db->get('Usuario');
-        return $query->result();
+        $this->db->where('idUsuario', $id);
+        $this->db->limit(1);
+        $query = $this->db->get('usuario');
+        return $query->row();
+        
         
     }
 

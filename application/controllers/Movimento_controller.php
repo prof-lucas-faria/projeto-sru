@@ -12,11 +12,15 @@ class Movimento_controller extends CI_Controller
     }
 
    
-    public function entrada(){
+    public function entrada($idUsuario){
 
         $this->load->model('movimento_model');
 
-        $data['listagem'] = $this->movimento_model->setEntrada();
+        // $data['listagem'] = $this->movimento_model->setEntrada();
+
+        $query = $this->movimento_model->setEntrada($idUsuario);
+
+        $data['listagem'] = $query;
 
         $data['titulo'] = "ENTRADA"; //titulo da página
         $this->template->show('movimento/Entrada', $data);
