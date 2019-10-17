@@ -6,6 +6,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <h1>ENTRADA</h1>
 
+<?php 
+    print_r($listagem); 
+?>
+
 
 <?php
         include("application/views/usuario/BuscarUsuario.php");

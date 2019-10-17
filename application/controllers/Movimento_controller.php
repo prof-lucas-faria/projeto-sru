@@ -16,7 +16,7 @@ class Movimento_controller extends CI_Controller
 
         $this->load->model('movimento_model');
 
-        // $data['listagem'] = $this->movimento_model->setEntrada(_POST['busca']);
+        $data['listagem'] = $this->movimento_model->setEntrada();
 
         $data['titulo'] = "ENTRADA"; //titulo da página
         $this->template->show('movimento/Entrada', $data);

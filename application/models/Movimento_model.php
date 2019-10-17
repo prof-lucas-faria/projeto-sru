@@ -1,15 +1,12 @@
 <?php
 
-class Movimento_model extends CI_Model{
+class Movimento_model extends CI_Model{   
 
-    public function setEntrada($matricula){
+    public function setEntrada(){
 
-        if ($matricula == "") {
-            return false;
-        } else {
-
-            return true;
-        }
+        $query = $this->db->get('Usuario');
+        return $query->result();
+        
     }
 
 }
