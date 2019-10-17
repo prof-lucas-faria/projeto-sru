@@ -26,7 +26,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <td><?php echo $resultado->cidadeOrigem; ?></td>
                     <td><?php echo $resultado->curso; ?></td>
                     <td>
-                        <a href="<?php echo base_url(); ?>index.php/movimento_controller/entrada/'.$resultado->idUsuario.'">
+                        <a href="<?php echo base_url(); ?>index.php/movimento_controller/entrada/<?=$resultado->idUsuario?>">
                             <input type="image" src="<?php echo base_url(); ?>assets/images/entrada.png" class="iconTable">
 
                         </a>
