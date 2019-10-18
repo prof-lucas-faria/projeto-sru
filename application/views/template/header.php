@@ -68,7 +68,7 @@
                             <li>
                                 <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
                                 <div class="dropdown-menu drop-content">
-                                    <a href="<?= base_url('index.php/login_controller/autenticar/') ?>">Tela de Login</a>
+                                    <a href="<?= base_url('index.php/login_controller/') ?>">Tela de Login</a>
                                 </div>
                             </li> 
                             <li>

@@ -1,5 +1,7 @@
 <?php
+
 defined('BASEPATH') OR exit('No direct script access allowed');
+
 ?><div class="container-fluid">
 
     <div class="col-md-6 col-md-offset-3">
@@ -34,7 +36,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 
   </br>
   
-        <?= form_open('login_controller/autenticar/') ?>
+        <?= form_open('login_controller/acao/') ?>
   
         <div class="col-sm-12">
           <?php echo form_error('eMail'); ?>            
@@ -55,7 +57,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="form-group">
           <button type="submit" class="btn btn-lg btn-primary btn-block">
-              <a href="<?= base_url('index.php/acesso_controller/resultadoAcesso/') ?>"></a><h6>Acessar</h6></button> <!--btn-block- Coloca o botão para a página toda (Classe do próprio Bootstrap) -->
+              <h6>Acessar</h6></button> <!--btn-block- Coloca o botão para a página toda (Classe do próprio Bootstrap) -->
       </div>
 
         </div>
