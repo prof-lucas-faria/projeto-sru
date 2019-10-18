@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 
-<div class="form-row campoBusca">    
+<div class="form-row homeBusca">    
 
     <div class="form-group form-inline">
         <form action="<?= base_url('index.php/homeController/resultado/') ?>" method="post">        

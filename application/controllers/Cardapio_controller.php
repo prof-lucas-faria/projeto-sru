@@ -54,7 +54,7 @@ class Cardapio_controller extends CI_Controller {
     public function store() {
         $this->load->model('cardapio_model');
         $regras = array(
-            array('field' => 'data', 'label' => 'Data', 'rules' => 'required'),
+            array('field' => 'data', 'label' => 'Data', 'rules' => 'trim|required'),
             array('field' => 'nomeCardapio', 'label' => 'Nome', 'rules' => 'required'),
             array('field' => 'pratoPrincipal', 'label' => 'Prato', 'rules' => 'required'),
             array('field' => 'guarnicao', 'label' => 'Guarnição', 'rules' => 'required'),
@@ -62,7 +62,9 @@ class Cardapio_controller extends CI_Controller {
             array('field' => 'salada', 'label' => 'Salada', 'rules' => 'required'),
             array('field' => 'sobremesa', 'label' => 'Sobremesa', 'rules' => 'required'),
             array('field' => 'suco', 'label' => 'Suco', 'rules' => 'required')
-        );
+            );
+
+
 
         $this->form_validation->set_rules($regras);
         if ($this->form_validation->run() == FALSE) {
@@ -112,6 +114,15 @@ class Cardapio_controller extends CI_Controller {
     public function novo() {
         $variaveis['titulo'] = "Novo";
         $this->template->show('cardapio/adicionarCardapio_view', $variaveis);
+    }
+
+    function delete($id) {
+        $this->load->model('cardapio_model'); //carrega o model cardapio
+        if ($this->pessoas_model->deletar($id)) {
+            redirect('listar');
+        } else {
+            log_message('error', 'Erro ao deletar...');
+        }
     }
 
 }
