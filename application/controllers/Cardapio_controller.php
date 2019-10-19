@@ -51,8 +51,7 @@ class Cardapio_controller extends CI_Controller {
      *  Esse processo continua até que você envie um formulário válido.
      */
 
-    public function store() {
-        $this->load->model('cardapio_model');
+    public function validarFormulario() {
         $regras = array(
             array('field' => 'data', 'label' => 'Data', 'rules' => 'trim|required'),
             array('field' => 'nomeCardapio', 'label' => 'Nome', 'rules' => 'required'),
@@ -62,17 +61,18 @@ class Cardapio_controller extends CI_Controller {
             array('field' => 'salada', 'label' => 'Salada', 'rules' => 'required'),
             array('field' => 'sobremesa', 'label' => 'Sobremesa', 'rules' => 'required'),
             array('field' => 'suco', 'label' => 'Suco', 'rules' => 'required')
-            );
-
-
+        );
 
         $this->form_validation->set_rules($regras);
-        if ($this->form_validation->run() == FALSE) {
+        return $this->form_validation->run();
+    }
+
+    public function store() {
+        if (!$this->validarFormulario()) {
             $data['titulo'] = 'Erro no Formulario';
             $this->form_validation->set_error_delimiters('<div class="alert alert-danger" role="alert">', ' </div> ');
             $this->template->show('cardapio/adicionarCardapio_view', $data);
         } else {
-
             //$id = $this->input->get('id');
             $id = NULL;
             //criação do objeto

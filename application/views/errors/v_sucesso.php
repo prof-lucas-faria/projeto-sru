@@ -8,14 +8,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
 <div class="container">
-    <h1 class="text-center">Mensagem</h1>
+    <h1 class="text-center">Sucesso</h1>
     <div class="col-md-12">
         <div class="row">
             <div class="alert alert-success text-center">
 <?= $mensagem; ?>
             </div>
         </div>
-        <div class="row text-center"><a href="<?= base_url('index.php/cardapio_controller/listar/') ?>" class="btn btn-info">Voltar</a>
+        <div class="row text-center"><a href="../" class="btn btn-info">Voltar</a>
         </div>
     </div>	
 </div>
