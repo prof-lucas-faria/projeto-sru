@@ -1,4 +1,4 @@
-<div id="pagina1" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div id="modalEdit" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content"><link href="<?= base_url() ?>public/css/estilo.css" rel="stylesheet">
             <div class="modal-header">
@@ -15,17 +15,21 @@
                     <div class="col-md-6 col-md-offset-3">
                         <div class="row">
 
-                            <?= form_open('cardapio_controller/store') ?>
+                            <?=  form_open('cardapio_controller/store/') ?>
+                            <div class="form-group">
+                                <input type="text" disabled class="form-control" name="id" id="recipientId">
+                            </div>
+
                             <?php //echo validation_errors() ?>
                             <div class="form-group">
                                 <?php echo form_error('data'); ?>
                                 <label for="data">Data:</label>
-                                <input type="text" name="data" placeholder="Ex.: dd/mm/aaaa" id="data" class="form-control" autofocus='true' requiried="true" value="<?= set_value('data') ?>"/>
+                                <input type="date" name="data"  id="data" class="form-control" autofocus='true' requiried="true" value="<?php  set_value('data') ?>"/>
                             </div>
                             <div class="form-group">
                                 <?php echo form_error('nomeCardapio'); ?>
                                 <label for="nomeCardapio">Nome :</label>
-                                <input type="text" name="nomeCardapio" id="nomeCardapio" class="form-control" autofocus='true' requiried="true" value="<?= set_value('nomeCardapio') ?>"/>
+                                <input type="text" name="nomeCardapio" id="nomeCardapio" class="form-control" autofocus='true' requiried="true" />
                             </div>
                             <div class="form-group ">
                                 <?php echo form_error('pratoPrincipal'); ?>
@@ -75,3 +79,4 @@
             </div>
         </div>
     </div>
+</div>

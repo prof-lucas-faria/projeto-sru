@@ -3,10 +3,10 @@
         <div class="modal-content ">
             <div class="btn-group-sm">
                 <h4>Confirmar?</h4>
-                <input  type="button"  value="Confirmar" class="btn btn-success" />
-                <input type="button" src="" value="Cancelar" data-dismiss="modal" class="btn btn-danger "  />
-
-            </div>
+                <form id="formDeletar">
+                    <input  type="submit"  value="Confirmar" class="btn btn-success" />
+                    <input type="button" src="" value="Cancelar" data-dismiss="modal" class="btn btn-danger "  />
+                </form>            </div>
         </div>
     </div>
 </div>

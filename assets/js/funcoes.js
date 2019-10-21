@@ -46,3 +46,27 @@ function formata_data() {
     });
 }
 
+function loadModal() {
+    $('#modalEdit').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget); // Botão que acionou o modal
+        var modal = $(this);
+        modal.find('.modal-body #recipientId').val(button.data('whatever'));
+        modal.find('.modal-body #data').val(button.data('whateverdata'));
+        modal.find('.modal-body #nomeCardapio').val(button.data('whatevernome'));
+        modal.find('.modal-body #pratoPrincipal').val(button.data('whateverprato'));
+        modal.find('.modal-body #guarnicao').val(button.data('whateverguar'));
+        modal.find('.modal-body #acompanhamento').val(button.data('whateveracom'));
+        modal.find('.modal-body #salada').val(button.data('whateversalada'));
+        modal.find('.modal-body #sobremesa').val(button.data('whateversobre'));
+        modal.find('.modal-body #suco').val(button.data('whateversuco'));
+    });
+}
+
+
+function link_form_deletar($caminho, $id) {
+    Buffer.clear();
+    //document.getElementById('formDeletar').action = '../../'+$caminho + $id;
+    $('#formDeletar').attr('action', $caminho +''+ $id);
+    Buffer.clear();
+}
+    

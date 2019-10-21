@@ -12,10 +12,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="col-md-12">
         <div class="row">
             <div class="alert alert-success text-center">
-<?= $mensagem; ?>
+                <?= $mensagem; ?>
             </div>
         </div>
-        <div class="row text-center"><a href="../" class="btn btn-info">Voltar</a>
+        <div class="row text-center"><a href="<?php echo $caminhoVoltar ?>" class="btn btn-info">Voltar</a>
         </div>
     </div>	
 </div>

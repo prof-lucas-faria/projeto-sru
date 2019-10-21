@@ -1,6 +1,7 @@
 <!-- Bootstrap core JavaScript
                         ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+</body>
 <script src="<?php echo base_url('assets/js/jquery.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/jquery.easing.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
@@ -15,6 +16,8 @@
 <script src="<?php echo base_url('assets/js/bootstrap-datepicker.js') ?>"></script> <!--CAlendario-->
 <script src="<?php echo base_url('assets/js/bootstrap-datepicker.min.js') ?>"></script> <!--CAlendario-->
 <script src="<?php echo base_url('assets/js/bootstrap-datepicker.pt-BR.min.js') ?>" charset="UTF-8"></script>
+<script type="text/javascript">
 
-</body>
+</script>
+
 </html>

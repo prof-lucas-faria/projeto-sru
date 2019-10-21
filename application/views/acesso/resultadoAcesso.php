@@ -1,11 +1,14 @@
 <?php
-
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 ?>
 
-<div class="container table-responsive">
-    <table class="table  table-hover">
+
+
+<?php
+if ($listagemDeAcesso) {
+    ?>
+    <div class="container table-responsive">
+        <table class="table  table-hover">
 
             <tr class="tr">
                 <th>Nome do Colaborador</th>
@@ -15,13 +18,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <th>Perfil</th>
                 <th>Ação</th>
             </tr>
-
- <?php
-        if(isset($listagemDeAcesso)){
-        ?>
-        <tbody id="tbody">
-            <?php foreach ($listagemDeAcesso as $resultado) : ?>
-                <tr>              
+            <tbody id="tbody">
+                <?php foreach ($listagemDeAcesso->result() as $resultado) : ?>
+                    <tr>              
                         <td><?php echo $resultado->nomeColaborador; ?></td>
                         <td><?php echo $resultado->cpf; ?></td>
                         <td><?php echo $resultado->eMail; ?></td>
@@ -44,8 +43,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <tfoot>
                 <tr>
                     <td colspan="10">
-                    <div class="links">
-                    <?= $this->pagination->create_links();?>
+                        <div class="links">
+                            <?= $this->pagination->create_links(); ?>
                         </div>
                     </td>
                 </tr>
@@ -65,11 +64,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <div class="form-group form-inline">
         <form action="<?= base_url('index.php/acesso_controller/resultadoAcesso/') ?>" method='post'>
-        
+
             <input id="busca" name="busca" placeholder="Digite o nome" class="form-control" type="text">           
-        
+
             <button type="submit" class="btn btn-danger">Buscar</button>
-            
+
         </form>
     </div>
 

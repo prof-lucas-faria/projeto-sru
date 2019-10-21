@@ -11,7 +11,7 @@ class Login_model extends CI_Model {
 			return false;
 		
 		} else {
-			$this->db->where(array('eMail'=>$eMail, 'senha'=>md5($senha)));
+			$this->db->where(array('eMail'=>$eMail, 'senha' => $senha));
 			$res = $this->db->get('AcessoRestrito'); // coletando usuarios no banco
 			
 			if( $res->num_rows() == 1 ) {

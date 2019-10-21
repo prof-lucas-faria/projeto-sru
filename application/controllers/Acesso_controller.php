@@ -6,8 +6,8 @@ class Acesso_controller extends CI_Controller {
     
     public function index() {                
  
-        $data['titulo'] = "Acesso Restrito"; //titulo da página
-        $this->template->show('acesso/resultadoAcesso', $data);
+        //$data['titulo'] = "Acesso Restrito"; //titulo da página
+        //$this->template->show('acesso/resultadoAcesso', $data);
         
     }
 
@@ -17,6 +17,7 @@ class Acesso_controller extends CI_Controller {
 
         if (!empty($_POST['busca'])) {
             if ($_POST['busca'] != "") {
+        $this->load->model('acesso_model');
 
                 $data['listagemDeAcesso'] = $this->acesso_model->getMatricula($_POST['busca']);
             }

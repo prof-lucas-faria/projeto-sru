@@ -5,13 +5,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Cardapio_controller extends CI_Controller {
 
     public function index() {
+        //$this->listar();
         
     }
 
     public function listar() {
 
-        $this->load->model('cardapio_model'); //carrega o model cardapio
-        $config['base_url'] = base_url() . 'index.php/cardapio_controller/listar';
+        $config['base_url'] = base_url('index.php/cardapio_controller/listar');
         $config['total_rows'] = $this->cardapio_model->get_count();
         $config['per_page'] = 5;
         $config["uri_segment"] = 3;
@@ -23,8 +23,12 @@ class Cardapio_controller extends CI_Controller {
         $this->pagination->initialize($config);
 
         $data['listaDeCardapio'] = $this->cardapio_model->get_limite($config["per_page"], $page);
-        $data['titulo'] = "Cardápio"; //titulo da página
+        $data['titulo'] = 'Cardápio'; //titulo da página
         $this->template->show('cardapio/listarCardapio_view', $data);
+    }
+
+    public function listarPorId($id = NULL) {
+        return $this->cardapio_model->listarPorId($id);
     }
 
     public function getCardapioFromView() {//recebe via post os dados do formulario
@@ -74,21 +78,10 @@ class Cardapio_controller extends CI_Controller {
             $this->template->show('cardapio/adicionarCardapio_view', $data);
         } else {
             //$id = $this->input->get('id');
-            $id = NULL;
-            //criação do objeto
-//            $cardapio = new Cardapio_model();
-            //$cardapio->__set('id', $this->input->get('id'));
-//            $cardapio->__set('data', $this->input->post('data'));
-//            $cardapio->__set('nomeCardapio', $this->input->post('nomeCardapio'));
-//            $cardapio->__set('pratoPrincipal', $this->input->post('pratoPrincipal'));
-//            $cardapio->__set('guarnicao', $this->input->post('guarnicao'));
-//            $cardapio->__set('acompanhamento', $this->input->post('acompanhamento'));
-//            $cardapio->__set('salada', $this->input->post('salada'));
-//            $cardapio->__set('sobremesa', $this->input->post('sobremesa'));
-//            $cardapio->__set('suco', $this->input->post('suco'));
-            // array
-
+            $id = $this->input->get('id');
+            echo $id;
             $dados = [
+                'idCardapio' => $this->input->post('id'),
                 'data' => $this->input->post('data'),
                 'nomeCardapio' => $this->input->post('nomeCardapio'),
                 'pratoPrincipal' => $this->input->post('pratoPrincipal'),
@@ -117,11 +110,14 @@ class Cardapio_controller extends CI_Controller {
     }
 
     function delete($id) {
-        $this->load->model('cardapio_model'); //carrega o model cardapio
-        if ($this->pessoas_model->deletar($id)) {
-            redirect('listar');
+        if ($this->cardapio_model->deletar($id)) {
+            $variaveis['caminhoVoltar'] = "/index.php/cardapio_controller/listar";
+            $variaveis['mensagem'] = "Deletado com sucesso";
+            $variaveis['titulo'] = "Sucesso";
+            $this->template->show('errors/v_sucesso', $variaveis);
         } else {
-            log_message('error', 'Erro ao deletar...');
+            $variaveis['titulo'] = "Erro";
+            $this->template->show('errors/v_error', $variaveis);
         }
     }
 
