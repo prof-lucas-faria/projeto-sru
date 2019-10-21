@@ -21,14 +21,14 @@ Um dos objetivos do projeto é controlar o acesso dos usuários do IF Goiano - C
 
 ## - Prazos: 
 ```
-Ana Paula - Classe Acesso Restrito Dia 18/09/2019
+Ana Paula - Classe Acesso Restrito
 
-João - CRUD de Cardápio Dia 18/09/2019
+João - CRUD de Cardápio
 
-Laila - Prototipo das Telas Dia 16/09
+Laila - Prototipo das Telas
 
-Welliton e Andreia  - Classe usuários Dia 18/09/2019 
+Welliton e Andreia  - Classe usuários
 
-Welliton e Andreia - Popular a Tabela AcessoRestrito - 18/09/2019
+Welliton e Andreia - Popular a Tabela AcessoRestrito
 ```
 
