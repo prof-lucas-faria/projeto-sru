@@ -5,9 +5,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 class Movimento_controller extends CI_Controller
 {
 
-    public function index(){
-
-        
+    public function index(){        
         
     }
 
@@ -16,20 +14,38 @@ class Movimento_controller extends CI_Controller
 
         $this->load->model('movimento_model');
        
-        $data['listagem'] = $this->movimento_model->setEntrada($id);
+        $data['listagem'] = $this->movimento_model->setEntrada($id);        
 
-        $data['titulo'] = "ENTRADA"; //titulo da página
-        $this->template->show('movimento/Entrada', $data);
+        if ($data['listagem'] == true){            
+            $variaveis['titulo'] = "Sucesso";
+            $variaveis['mensagem'] = "Dados gravados com sucesso!";            
+            $this->template->show('movimento/Entrada', $variaveis);
+
+        }else {
+            $variaveis['titulo'] = "Falha";
+            $variaveis['mensagem'] = "Não existe Cardápio cadastrado para este dia.";
+            $this->template->show('movimento/Entrada', $variaveis);
+        }     
 
     }
 
 
-    public function saida(){
+    public function saida($id){
 
         $this->load->model('movimento_model');
+       
+        $data['listagem'] = $this->movimento_model->setSaida($id);        
 
-        $data['titulo'] = "SAÍDA"; //titulo da página
-        $this->template->show('movimento/Saida', $data);
+        if ($data['listagem'] == true){            
+            $variaveis['titulo'] = "Sucesso";
+            $variaveis['mensagem'] = "Dados gravados com sucesso!";            
+            $this->template->show('movimento/Saida', $variaveis);
+
+        }else {
+            $variaveis['titulo'] = "Falha";
+            $variaveis['mensagem'] = "Não existe Cardápio cadastrado para este dia.";
+            $this->template->show('movimento/Saida', $variaveis);
+        }     
 
     }
 }

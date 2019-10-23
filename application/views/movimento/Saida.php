@@ -1,11 +1,16 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+?>
 
-<div class="container table-responsive">
-
-<h1>SAÍDA</h1>
-
+<div class="container">
+    <h1 class="text-center">Saída</h1>
+    <div class="col-md-12">
+        <div class="row">
+            <div class="alert alert-success text-center">
+                <?= $mensagem; ?>
+            </div>
+        </div>        
+</div>
 
 <?php
         include("application/views/usuario/BuscarUsuario.php");

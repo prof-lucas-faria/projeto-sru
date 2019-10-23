@@ -30,7 +30,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <input type="image" src="<?php echo base_url(); ?>assets/images/entrada.png" class="iconTable">
 
                         </a>
-                        <a href="<?php echo base_url(); ?>index.php/movimento_controller/saida/">
+                        <a href="<?php echo base_url(); ?>index.php/movimento_controller/saida/<?=$resultado->idUsuario?>">
                             <input type="image" src="<?php echo base_url(); ?>assets/images/saida.png" class="iconTable">
                         </a>
                     </td>
