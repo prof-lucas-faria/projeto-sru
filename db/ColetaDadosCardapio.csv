@@ -1,0 +1,608 @@
+2019-06-03,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-06-04,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-06-05,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-06-06,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-06-07,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-06-10,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-06-11,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-06-12,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-06-13,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-06-14,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-06-17,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-06-18,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-06-19,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-06-20,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-06-21,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-06-24,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-06-25,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-06-26,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-06-27,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-06-28,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-07-01,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-07-02,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-07-03,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-07-04,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-07-05,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-07-08,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-07-09,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-07-10,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-07-11,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-07-12,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-07-15,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-07-16,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-07-17,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-07-18,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-07-19,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-07-22,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-07-23,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-07-24,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-07-25,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-07-26,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-07-29,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-07-30,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-07-31,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-08-01,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-08-02,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-08-05,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-08-06,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-08-07,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-08-08,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-08-09,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-08-12,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-08-13,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-08-14,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-08-15,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-08-16,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-08-19,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-08-20,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-08-21,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-08-22,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-08-23,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-08-26,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-08-27,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-08-28,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-08-29,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-08-30,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-09-02,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-09-03,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-09-04,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-09-05,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-09-06,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-09-09,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-09-10,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-09-11,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-09-12,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-09-13,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-09-16,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-09-17,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-09-18,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-09-19,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-09-20,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-09-23,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-09-24,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-09-25,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-09-26,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-09-27,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-09-30,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-10-01,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-10-02,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-10-03,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-10-04,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-10-07,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-10-08,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-10-09,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-10-10,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-10-11,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-10-14,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-10-15,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-10-16,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-10-17,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-10-18,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-10-21,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-10-22,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-10-23,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-10-24,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-10-25,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-10-28,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-10-29,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-10-30,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-10-31,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-11-01,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-11-04,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-11-05,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-11-06,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-11-07,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-11-08,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-11-11,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-11-12,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-11-13,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-11-14,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-11-15,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-11-18,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-11-19,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-11-20,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-11-21,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-11-22,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-11-25,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-11-26,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-11-27,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-11-28,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-11-29,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-12-02,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-12-03,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-12-04,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-12-05,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-12-06,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-12-09,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-12-10,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-12-11,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-12-12,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-12-13,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-12-16,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-12-17,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-12-18,Cafe da manha,Rosca Doce,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Tangerina,1
+2019-12-19,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-12-20,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-12-23,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Laranja,1
+2019-12-24,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-12-25,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Caju,1
+2019-12-26,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-12-27,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-12-30,Cafe da manha,Pao com manteiga,Cafe com Leite,Bolacha de Sal,Banana,Iogurte,Laranja,1
+2019-12-31,Cafe da manha,Pao de Queijo,Cafe com Leite,Bolacha Recheada,Maca,Qualhada,Caju,1
+2019-06-03,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-06-04,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-06-05,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-06-06,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-06-07,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-06-10,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-06-11,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-06-12,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-06-13,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-06-14,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-06-17,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-06-18,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-06-19,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-06-20,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-06-21,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-06-24,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-06-25,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-06-26,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-06-27,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-06-28,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-07-01,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-07-02,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-07-03,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-07-04,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-07-05,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-07-08,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-07-09,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-07-10,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-07-11,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-07-12,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-07-15,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-07-16,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-07-17,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-07-18,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-07-19,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-07-22,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-07-23,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-07-24,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-07-25,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-07-26,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-07-29,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-07-30,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-07-31,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-08-01,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-08-02,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-08-05,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-08-06,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-08-07,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-08-08,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-08-09,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-08-12,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-08-13,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-08-14,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-08-15,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-08-16,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-08-19,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-08-20,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-08-21,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-08-22,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-08-23,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-08-26,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-08-27,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-08-28,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-08-29,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-08-30,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-09-02,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-09-03,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-09-04,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-09-05,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-09-06,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-09-09,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-09-10,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-09-11,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-09-12,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-09-13,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-09-16,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-09-17,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-09-18,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-09-19,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-09-20,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-09-23,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-09-24,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-09-25,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-09-26,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-09-27,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-09-30,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-10-01,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-10-02,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-10-03,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-10-04,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-10-07,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-10-08,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-10-09,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-10-10,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-10-11,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-10-14,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-10-15,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-10-16,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-10-17,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-10-18,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-10-21,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-10-22,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-10-23,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-10-24,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-10-25,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-10-28,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-10-29,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-10-30,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-10-31,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-11-01,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-11-04,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-11-05,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-11-06,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-11-07,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-11-08,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-11-11,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-11-12,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-11-13,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-11-14,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-11-15,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-11-18,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-11-19,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-11-20,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-11-21,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-11-22,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-11-25,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-11-26,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-11-27,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-11-28,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-11-29,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-12-02,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-12-03,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-12-04,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-12-05,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-12-06,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-12-09,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-12-10,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-12-11,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-12-12,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-12-13,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-12-16,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-12-17,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-12-18,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-12-19,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,2
+2019-12-20,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,2
+2019-12-23,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,2
+2019-12-24,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,2
+2019-12-25,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,2
+2019-12-26,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,2
+2019-12-27,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,2
+2019-12-30,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,2
+2019-12-31,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,2
+2019-06-03,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-06-04,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-06-05,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-06-06,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-06-07,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-06-10,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-06-11,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-06-12,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-06-13,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-06-14,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-06-17,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-06-18,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-06-19,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-06-20,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-06-21,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-06-24,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-06-25,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-06-26,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-06-27,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-06-28,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-07-01,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-07-02,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-07-03,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-07-04,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-07-05,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-07-08,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-07-09,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-07-10,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-07-11,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-07-12,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-07-15,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-07-16,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-07-17,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-07-18,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-07-19,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-07-22,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-07-23,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-07-24,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-07-25,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-07-26,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-07-29,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-07-30,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-07-31,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-08-01,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-08-02,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-08-05,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-08-06,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-08-07,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-08-08,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-08-09,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-08-12,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-08-13,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-08-14,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-08-15,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-08-16,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-08-19,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-08-20,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-08-21,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-08-22,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-08-23,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-08-26,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-08-27,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-08-28,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-08-29,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-08-30,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-09-02,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-09-03,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-09-04,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-09-05,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-09-06,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-09-09,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-09-10,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-09-11,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-09-12,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-09-13,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-09-16,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-09-17,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-09-18,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-09-19,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-09-20,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-09-23,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-09-24,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-09-25,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-09-26,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-09-27,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-09-30,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-10-01,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-10-02,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-10-03,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-10-04,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-10-07,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-10-08,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-10-09,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-10-10,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-10-11,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-10-14,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-10-15,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-10-16,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-10-17,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-10-18,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-10-21,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-10-22,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-10-23,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-10-24,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-10-25,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-10-28,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-10-29,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-10-30,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-10-31,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-11-01,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-11-04,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-11-05,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-11-06,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-11-07,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-11-08,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-11-11,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-11-12,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-11-13,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-11-14,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-11-15,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-11-18,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-11-19,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-11-20,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-11-21,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-11-22,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-11-25,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-11-26,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-11-27,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-11-28,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-11-29,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-12-02,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-12-03,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-12-04,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-12-05,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-12-06,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-12-09,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-12-10,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-12-11,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-12-12,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-12-13,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-12-16,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-12-17,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-12-18,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-12-19,Sobrecoxa assada,Sobrecoxa assada,Salada de Macarrao,Arroz  feijao,Beterraba ralada,Paçoca,Maracuja,3
+2019-12-20,Pernil suíno com mostarda,Pernil suíno com mostarda,Creme de cenoura,Arroz  feijao,Beterraba cozida,Melancia,Maracuja,3
+2019-12-23,Frango Xadrez,Frango Xadrez,Macarrao alho e óleo,Arroz  feijao,Pepino,Banana,Uva,3
+2019-12-24,Quibe assado,Quibe assado,Salada de chuchu,Arroz  feijao,Acelga com cenoura,Abacaxi,Caju,3
+2019-12-25,Estrogonofe de frango,Estrogonofe de frango,Batata palha,Arroz  feijao,Alface com rucula,Arroz doce,Abacaxi,3
+2019-12-26,Nuggets,Nuggets,Batata gratinada,Arroz  feijao,Repolho bicolor,Laranja,Tangerina,3
+2019-12-27,Carne Moida,Carne moída com tomate e azeitona,Polenta,Arroz  feijao,Cenoura ralada,Banana,Uva,3
+2019-12-30,Fricasse de frango,Fricasse de frango,Batata doce frita,Arroz  feijao,Pepino,Melancia,Laranja,3
+2019-12-31,Carne de panela com mandioca,Carne de panela com mandioca,Repolho com cenoura grelhados,Arroz  feijao,Alface,Banana,Goiaba,3
+2019-06-03,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-06-04,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-06-05,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-06-06,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-06-07,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-06-10,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-06-11,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-06-12,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-06-13,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-06-14,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-06-17,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-06-18,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-06-19,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-06-20,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-06-21,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-06-24,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-06-25,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-06-26,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-06-27,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-06-28,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-07-01,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-07-02,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-07-03,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-07-04,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-07-05,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-07-08,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-07-09,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-07-10,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-07-11,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-07-12,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-07-15,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-07-16,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-07-17,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-07-18,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-07-19,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-07-22,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-07-23,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-07-24,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-07-25,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-07-26,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-07-29,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-07-30,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-07-31,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-08-01,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-08-02,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-08-05,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-08-06,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-08-07,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-08-08,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-08-09,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-08-12,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-08-13,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-08-14,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-08-15,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-08-16,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-08-19,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-08-20,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-08-21,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-08-22,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-08-23,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-08-26,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-08-27,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-08-28,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-08-29,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-08-30,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-09-02,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-09-03,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-09-04,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-09-05,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-09-06,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-09-09,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-09-10,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-09-11,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-09-12,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-09-13,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-09-16,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-09-17,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-09-18,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-09-19,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-09-20,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-09-23,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-09-24,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-09-25,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-09-26,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-09-27,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-09-30,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-10-01,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-10-02,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-10-03,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-10-04,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-10-07,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-10-08,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-10-09,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-10-10,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-10-11,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-10-14,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-10-15,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-10-16,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-10-17,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-10-18,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-10-21,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-10-22,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-10-23,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-10-24,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-10-25,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-10-28,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-10-29,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-10-30,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-10-31,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-11-01,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-11-04,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-11-05,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-11-06,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-11-07,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-11-08,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-11-11,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-11-12,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-11-13,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-11-14,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-11-15,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-11-18,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-11-19,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-11-20,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-11-21,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-11-22,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-11-25,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-11-26,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-11-27,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-11-28,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-11-29,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-12-02,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-12-03,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-12-04,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-12-05,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-12-06,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-12-09,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-12-10,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-12-11,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-12-12,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-12-13,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-12-16,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-12-17,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-12-18,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-12-19,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-12-20,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-12-23,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-12-24,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4
+2019-12-25,Lanche,Rosca Doce,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Tangerina,4
+2019-12-26,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Laranja,4
+2019-12-27,Lanche,Misto Quente,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Caju,4
+2019-12-30,Lanche,Pao com mortadela,Leite com Achocolatado,Bolacha de Sal,Banana,Iogurte,Laranja,4
+2019-12-31,Lanche,Misto Quente,Leite com Achocolatado,Bolacha Recheada,Maca,Qualhada,Caju,4

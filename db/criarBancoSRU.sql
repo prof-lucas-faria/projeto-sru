@@ -46,6 +46,16 @@ ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
+-- Table `sru`.`TipoCardapio`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `sru`.`TipoCardapio` (
+  `idTipoCardapio` INT NOT NULL AUTO_INCREMENT,
+  `nomeTipoCardapio` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`idTipoCardapio`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
 -- Table `sru`.`Cardapio`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `sru`.`Cardapio` (
@@ -58,7 +68,14 @@ CREATE TABLE IF NOT EXISTS `sru`.`Cardapio` (
   `salada` VARCHAR(45) NOT NULL,
   `sobremesa` VARCHAR(45) NOT NULL,
   `suco` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`idCardapio`))
+  `idTipoCardapio` INT NOT NULL,
+  PRIMARY KEY (`idCardapio`),
+  INDEX `fk_Cardapio_TipoCardapio1_idx` (`idTipoCardapio` ASC),
+  CONSTRAINT `fk_Cardapio_TipoCardapio1`
+    FOREIGN KEY (`idTipoCardapio`)
+    REFERENCES `sru`.`TipoCardapio` (`idTipoCardapio`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
 ENGINE = InnoDB;
 
 

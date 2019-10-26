@@ -1,0 +1,5 @@
+INSERT INTO `sru`.`AcessoRestrito` (`nomeColaborador`, `cpf`, `eMail`, `senha`, `Perfil_idPerfil`) VALUES ('andreia', '11111111111', 'andreia@ifgoiano.gov.edu.br', '123', '1');
+INSERT INTO `sru`.`AcessoRestrito` (`nomeColaborador`, `cpf`, `eMail`, `senha`, `Perfil_idPerfil`) VALUES ('Ana Paula', '22222222222', 'ana.paula@ifgoiano.gov.edu.br', '123', '5');
+INSERT INTO `sru`.`AcessoRestrito` (`nomeColaborador`, `cpf`, `eMail`, `senha`, `Perfil_idPerfil`) VALUES ('Laila', '33333333333', 'laila@ifgoiano.gov.edu.br', '123', '6');
+INSERT INTO `sru`.`AcessoRestrito` (`nomeColaborador`, `cpf`, `eMail`, `senha`, `Perfil_idPerfil`) VALUES ('joao', '44444444444', 'joao@ifgoiano.gov.edu.br', '123', '1');
+INSERT INTO `sru`.`AcessoRestrito` (`nomeColaborador`, `cpf`, `eMail`, `senha`, `Perfil_idPerfil`) VALUES ('Welliton', '55555555555', 'welliton@ifgoiano.gov.edu.br', '123', '6');
