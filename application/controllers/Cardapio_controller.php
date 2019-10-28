@@ -6,7 +6,6 @@ class Cardapio_controller extends CI_Controller {
 
     public function index() {
         //$this->listar();
-        
     }
 
     public function listar() {
@@ -64,7 +63,8 @@ class Cardapio_controller extends CI_Controller {
             array('field' => 'acompanhamento', 'label' => 'Acompanhamento', 'rules' => 'required'),
             array('field' => 'salada', 'label' => 'Salada', 'rules' => 'required'),
             array('field' => 'sobremesa', 'label' => 'Sobremesa', 'rules' => 'required'),
-            array('field' => 'suco', 'label' => 'Suco', 'rules' => 'required')
+            array('field' => 'suco', 'label' => 'Suco', 'rules' => 'required'),
+            array('field' => 'idTipoCardapio', 'label' => 'Tipo Cardápio', 'errors' => array('required' => "Please select the gender"), 'rules' => 'required'),
         );
 
         $this->form_validation->set_rules($regras);
@@ -74,14 +74,14 @@ class Cardapio_controller extends CI_Controller {
     public function store() {
         if (!$this->validarFormulario()) {
             $data['titulo'] = 'Erro no Formulario';
+            $data['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
             $this->form_validation->set_error_delimiters('<div class="alert alert-danger" role="alert">', ' </div> ');
             $this->template->show('cardapio/adicionarCardapio_view', $data);
         } else {
-            //$id = $this->input->get('id');
             $id = $this->input->get('id');
-            echo $id;
+            //echo $id;
             $dados = [
-                'idCardapio' => $this->input->post('id'),
+                'idCardapio' => $this->input->get('id'),
                 'data' => $this->input->post('data'),
                 'nomeCardapio' => $this->input->post('nomeCardapio'),
                 'pratoPrincipal' => $this->input->post('pratoPrincipal'),
@@ -89,11 +89,14 @@ class Cardapio_controller extends CI_Controller {
                 'acompanhamento' => $this->input->post('acompanhamento'),
                 'salada' => $this->input->post('salada'),
                 'sobremesa' => $this->input->post('sobremesa'),
-                'suco' => $this->input->post('suco')
+                'suco' => $this->input->post('suco'),
+                'idTipoCardapio' => $this->input->post('idTipoCardapio')
             ];
 
             if ($this->cardapio_model->store($dados, $id)) {
                 $variaveis['titulo'] = "Sucesso";
+                $variaveis['caminhoVoltar'] = "novo";
+
                 $variaveis['mensagem'] = "Dados gravados com sucesso!";
                 $this->template->show('errors/v_sucesso', $variaveis);
             } else {
@@ -106,6 +109,7 @@ class Cardapio_controller extends CI_Controller {
 
     public function novo() {
         $variaveis['titulo'] = "Novo";
+        $variaveis['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
         $this->template->show('cardapio/adicionarCardapio_view', $variaveis);
     }
 
