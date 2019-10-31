@@ -1,7 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-
 <!-------------Tabela listar Cardápio---------->
 <div class="container table-responsive">
     <table class="table  table-hover">
@@ -17,7 +16,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <th>Suco</th>
                 <th>Ação</th>
             </tr>
-
             <tbody id="tbody">
                 <?php foreach ($listaDeCardapio as $cardapio) : ?>
                     <tr>                
@@ -51,10 +49,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <a onclick="link_form_deletar('cardapio_controller/delete/',<?php echo $cardapio->idCardapio ?>)">
                                 <img alt="oioioioi" data-toggle="modal" data-target=".bd-example-modal-sm"
                                      src="<?php echo base_url('assets/images/icons-delete-64.png'); ?>" class="iconTable btn btn-sm">
-
                             </a>
                         </td>
-
                     <?php endforeach; ?>
                 </tr>  
             </tbody>
@@ -79,9 +75,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-------------FIM da Tabela listar Cardápio---------->
 
 <!-------------Modal Confirmar---------->
-<?php include 'modalConfirmar.php'; ?>
+<?php include 'modais/modalConfirmar.php'; ?>
 <!-------------Fim Modal Confirmar ---------->
 
 <!-- Modal Editar -->
-<?php include 'modalEditar.php'; ?>
+<?php include 'modais/modalEditar.php'; ?>
 <!-------------Fim Modal Editar  ---------->

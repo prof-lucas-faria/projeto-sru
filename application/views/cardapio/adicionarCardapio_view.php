@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-?><div class="container-fluid">
+?>
+<div class="container-fluid">
 
     <div class="col-md-6 col-md-offset-3">
         <div class="row">
@@ -13,14 +14,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <label for="selectTipoCardapio">Tipo de cardápio</label>
                     <select class="form-control" id="idTipoCardapio" name="idTipoCardapio"  value="<?= set_value('idTipoCardapio') ?>">
                         <option value="0">-Selecione-</option>
-
                         <?php
                         foreach ($tiposCardapio as $i => $tipos) {
                             echo "\n".'<option value="', $i, '">', $tipos, '</option>';
                         }
                         ?>
-
-                        <!--                        <option>5</option>-->
                     </select>
                 </div>
 
