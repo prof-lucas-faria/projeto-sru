@@ -7,13 +7,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <?= form_open('cardapio_controller/store') ?>
             <?php //echo validation_errors() ?>
-            <div class="form-group ">
-                <?php echo form_error('data'); ?>
-                <label for="data">Data:</label>
-                <div class="form-inline">
+            <div class="form-inline form-group">
+
+                <div class=" selectTipoCardapio form-inline">
+                    <label for="selectTipoCardapio">Tipo de cardápio</label>
+                    <select class="form-control" id="idTipoCardapio" name="idTipoCardapio"  value="<?= set_value('idTipoCardapio') ?>">
+                        <option value="0">-Selecione-</option>
+
+                        <?php
+                        foreach ($tiposCardapio as $i => $tipos) {
+                            echo "\n".'<option value="', $i, '">', $tipos, '</option>';
+                        }
+                        ?>
+
+                        <!--                        <option>5</option>-->
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <?php echo form_error('data'); ?>
+                    <label for="data">Data:</label>
                     <input  type="date" autocomplete="off" onmousedown="formata_data()" name="data" placeholder="dd/mm/aaaa" id="data"  autofocus='true' requiried="true" value="<?= set_value('data') ?>"/>
                     <span class="glyphicon glyphicon-calendar "></span>
+
                 </div>
+
 
             </div>
 

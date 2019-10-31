@@ -71,6 +71,18 @@ class Cardapio_model extends CI_Model {
         return $this->db->delete('Cardapio');
     }
 
+    function getTiposCardapio() {
+        $query = $this->db->query('SELECT idTipoCardapio,nomeTipoCardapio FROM TipoCardapio');
+
+        if ($query->num_rows() > 0) {
+            foreach ($query->result() as $row) {
+                $arrDados[htmlspecialchars($row->idTipoCardapio, ENT_QUOTES)] = htmlspecialchars($row->nomeTipoCardapio, ENT_QUOTES);
+            }
+            $query->free_result();
+            return $arrDados;
+        }
+    }
+
     public function get() {
         return $this->db->get('Cardapio');
     }
