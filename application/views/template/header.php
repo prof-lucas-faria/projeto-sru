@@ -54,7 +54,10 @@
                             </li>
 
                             <li>
-                                <a class="page-scroll" href="#">Relatório</a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Relatório</a>
+                                <div class="dropdown-menu drop-content">
+                                    <a href="<?= base_url('index.php/relatorios_controller/datar/') ?>">Listar Relatórios <img class="imgNew" src="<?= base_url('assets/images/new_item.png') ?>" > </a>
+                                </div>
                             </li>    
                             <li>
                                 <a class="page-scroll" href="#">Contatos</a>
@@ -64,13 +67,7 @@
                                 <div class="dropdown-menu drop-content">
                                     <a href="<?= base_url('index.php/login_controller/') ?>">Tela de Login</a>
                                 </div>
-                            </li> 
-                            <li>
-                                <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Teste</a>
-                                <div class="dropdown-menu drop-content">
-                                    <a href="<?= base_url('index.php/acesso_controller/resultadoAcesso/') ?>">Listar</a>
-                                </div>
-                            </li>        
+                            </li>      
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
