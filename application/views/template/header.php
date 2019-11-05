@@ -56,12 +56,15 @@
                             <li>
                                 <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Relatório</a>
                                 <div class="dropdown-menu drop-content">
-                                    <a href="<?= base_url('index.php/relatorios_controller/datar/') ?>">Listar Relatórios <img class="imgNew" src="<?= base_url('assets/images/new_item.png') ?>" > </a>
+                                    <a href="<?= base_url('index.php/relatorios_controller/datar/') ?>">Listar Relatórios </a>
                                 </div>
-                            </li>    
+                            </li> 
                             <li>
-                                <a class="page-scroll" href="#">Contatos</a>
-                            </li>
+                                <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contatos</a>
+                                <div class="dropdown-menu drop-content">
+                                    <a href="<?= base_url('index.php/contato_controller/mostrar/') ?>">Contatos </a>
+                                </div>
+                            </li>                            
                             <li>
                                 <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
                                 <div class="dropdown-menu drop-content">
