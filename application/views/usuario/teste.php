@@ -1,4 +1,5 @@
 <?php
-echo "Teste".$_POST['busca'];
+print_r(Relatorios_controller.$data);;
+
 ?>
 

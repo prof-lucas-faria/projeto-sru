@@ -56,7 +56,7 @@
                             <li>
                                 <a class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Relatório</a>
                                 <div class="dropdown-menu drop-content">
-                                    <a href="<?= base_url('index.php/relatorios_controller/datar/') ?>">Listar Relatórios </a>
+                                    <a href="<?= base_url('index.php/relatorios_controller/relatorios/') ?>">Listar Relatórios </a>
                                 </div>
                             </li> 
                             <li>
