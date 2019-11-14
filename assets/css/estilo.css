@@ -144,10 +144,27 @@ table tfoot .links a{
     height: 120px;
     margin-bottom: 10px
 }
-legend{
-    padding-left: 1000px;
+
+
+legend {
+    padding-left: 90%;
+}
+.fieldTipoRefeicao{
+    width: 100%;
+    height: 10%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    /*background-image: url('searchicon.png');*/
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
 }
 
+.lblTipoRefeicao{
+margin-left: 28%;
+}
 #failMessage{
     color: #000000;
     margin-left:10%;
