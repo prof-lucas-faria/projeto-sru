@@ -10,14 +10,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="form-group col-md-4">
                 <?php echo form_error('data'); ?>
                 <label for="data">Data e Hora Inicial</label>
-                    <input  type="datetime-local" autocomplete="off" onmousedown="formata_data()" name="dataHoraI"  placeholder="dd/mm/aaaa" id="dataHoraI"  autofocus='true' requiried="true" value="<?= set_value('dataHoraI') ?>"/>
+                    <input  type="datetime-local" autocomplete="off"  max="24:00" onmousedown="formata_data()" name="dataHoraI"  placeholder="dd/mm/aaaa" id="dataHoraI"  autofocus='true' requiried="true" value="<?= set_value('dataHoraI') ?>"/>
                     <span class="glyphicon glyphicon-calendar "></span>
                 </div>
 
                 <div class="form-group col-md-4">
                 <?php echo form_error('data'); ?>
                 <label for="data">Data e Hora Final</label>
-                    <input  type="datetime-local" autocomplete="off" onmousedown="formata_data()" name="dataHoraF" placeholder="dd/mm/aaaa" id="dataHoraF"  autofocus='true' requiried="true" value="<?= set_value('dataHoraF') ?>"/>
+                    <input  type="datetime-local" autocomplete="off"  max="24:00" onmousedown="formata_data()" name="dataHoraF" placeholder="dd/mm/aaaa" id="dataHoraF"  autofocus='true' requiried="true" value="<?= set_value('dataHoraF') ?>"/>
                     <span class="glyphicon glyphicon-calendar "></span>
                 </div>
         </div>
@@ -29,17 +29,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     
         <div class="form-check">
             <?php echo form_error('nomeCardapio'); ?>
-            <input class="form-check-input" type="radio" name="ConsultaPorGenero" id="relatorio1" value="opcao1" checked>
+            <input class="form-check-input" type="radio" name="Consulta" id="relatorio1" value="opcao1" checked>
             <label class="form-check-label" for="relatorio1">
-            Consulta Qtde Genero
+            Consulta Alunos Genero
             </label>
         </div>
         <br>   
         <div class="form-check">
             <?php echo form_error('genero'); ?>
-            <input class="form-check-input" type="radio" name="ConsultaTodos" id="relatorio2" value="opcao2">
+            <input class="form-check-input" type="radio" name="Consulta" id="relatorio2" value="opcao2">
             <label class="form-check-label" for="relatorio2">
-            Consulta Qtde Geral
+            Consulta Alunos Gerals
+            </label>
+        </div>
+        <br>
+
+        <div class="form-check">
+            <?php echo form_error('genero'); ?>
+            <input class="form-check-input" type="radio" name="Consulta" id="relatorio2" value="opcao3">
+            <label class="form-check-label" for="relatorio2">
+            Consulta Alunos Por Curso
             </label>
         </div>
         <br>
