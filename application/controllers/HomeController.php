@@ -6,7 +6,6 @@ class HomeController extends CI_Controller {
 
     public function index() {
         $data['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'];
-        //$data['tipoCardapioEscolhido'] = NULL;
         $data['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
         $data['titulo'] = "Home"; //titulo da página
         $this->template->show('usuario/BuscarUsuario', $data);
@@ -15,13 +14,7 @@ class HomeController extends CI_Controller {
     public function resultado() {
 
         $this->load->model('usuario_model');
-        //$tipoCardapioEscolhido = $this->input->post('tipoCardapio'); //tipo recebido da view
         $data['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'] = $this->input->post('tipoCardapio'); //tipo recebido da view
-        //$value = $_SESSION['tipoCardapioEscolhido'];
-        //$data['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'];
-        //$this->session->set_userdata($tipoCardapioEscolhido); //setando tipo Selecionado na variavel de sessão
-        //$this->session->userdata($array['tipoCardapioEscolhido']);//recuperando valor da variavel de sessão
-
 
         $data['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
         if (!empty($_POST['busca'])) {

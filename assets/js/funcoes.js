@@ -53,6 +53,7 @@ function loadModal() {
         modal.find('.modal-body #recipientId').val(button.data('whatever'));
         modal.find('.modal-body #data').val(button.data('whateverdata'));
         modal.find('.modal-body #nomeCardapio').val(button.data('whatevernome'));
+        modal.find('.modal-body #tipo').val(button.data('whatevertipo'));
         modal.find('.modal-body #pratoPrincipal').val(button.data('whateverprato'));
         modal.find('.modal-body #guarnicao').val(button.data('whateverguar'));
         modal.find('.modal-body #acompanhamento').val(button.data('whateveracom'));

@@ -8,6 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <tr class="tr">
                 <th scope="row">Data</th>
                 <th>Nome</th>
+                <th>Tipo</th>
                 <th>Prato principal</th>
                 <th>Guarnição</th>
                 <th>Acompanhamento</th>
@@ -23,7 +24,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             $dataConv = new DateTime($cardapio->data);
                             echo $dataConv->format('d-M-Y');
                             ?></td>
+
                         <td><?php echo $cardapio->nomeCardapio; ?></td>
+                        <td>
+                            <?php
+                            foreach ($this->cardapio_model->getTiposCardapio() as $i => $tipos) {
+                                if ($cardapio->idTipoCardapio == $i) {
+                                    echo $tipos;
+                                }
+                            }
+                            ?>
+                        </td>
                         <td><?php echo $cardapio->pratoPrincipal; ?></td>
                         <td><?php echo $cardapio->guarnicao; ?></td>
                         <td><?php echo $cardapio->acompanhamento; ?></td>
@@ -33,6 +44,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <td>
                             <a onclick="loadModal()" 
                                data-whatever="<?php echo $cardapio->idCardapio ?>" 
+                               data-whatevertipo="<?php
+                               foreach ($this->cardapio_model->getTiposCardapio() as $i => $tipos) {
+                                   if ($cardapio->idTipoCardapio == $i) {
+                                       echo $tipos;
+                                   }
+                               }
+                               ?>" 
                                data-whateverdata="<?php echo $cardapio->data ?>" 
                                data-whateverguar="<?php echo $cardapio->guarnicao ?>" 
                                data-whatevernome="<?php echo $cardapio->nomeCardapio; ?>" 
@@ -51,33 +69,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                      src="<?php echo base_url('assets/images/icons-delete-64.png'); ?>" class="iconTable btn btn-sm">
                             </a>
                         </td>
-                    <?php endforeach; ?>
-                </tr>  
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="10">
-                        <div class="links">
-                            <?= $this->pagination->create_links(); ?>
-                        </div>
-                    </td>
-                </tr>
-            </tfoot>
+                        <?php endforeach; ?>
+                    </tr>  
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="10">
+                            <div class="links">
+                                <?= $this->pagination->create_links(); ?>
+                            </div>
+                        </td>
+                    </tr>
+                </tfoot>
 
-            <?php
-        } else {
-            echo "<div class=\"alert alert-danger\" id=\"failMessage\"> <h4 > Nehum item cadastrado </h4> </div>";
-        }
-        ?>
+                <?php
+            } else {
+                echo "<div class=\"alert alert-danger\" id=\"failMessage\"> <h4 > Nehum item cadastrado </h4> </div>";
+            }
+            ?>
 
-    </table>
-</div>
-<!-------------FIM da Tabela listar Cardápio---------->
+        </table>
+    </div>
+    <!-------------FIM da Tabela listar Cardápio---------->
 
-<!-------------Modal Confirmar---------->
-<?php include 'modais/modalConfirmar.php'; ?>
-<!-------------Fim Modal Confirmar ---------->
+    <!-------------Modal Confirmar---------->
+    <?php include 'modais/modalConfirmar.php'; ?>
+    <!-------------Fim Modal Confirmar ---------->
 
-<!-- Modal Editar -->
-<?php include 'modais/modalEditar.php'; ?>
+    <!-- Modal Editar -->
+    <?php include 'modais/modalEditar.php'; ?>
 <!-------------Fim Modal Editar  ---------->

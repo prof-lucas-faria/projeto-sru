@@ -2,50 +2,46 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Movimento_controller extends CI_Controller
-{
+class Movimento_controller extends CI_Controller {
 
-    public function index(){        
-        
+    public function index() {
+        $variaveis['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
+        $variaveis['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'];
     }
 
-   
-    public function entrada($id){
+    public function entrada($id) {
 
         $this->load->model('movimento_model');
-       
-        $data['listagem'] = $this->movimento_model->setEntrada($id);        
+        $data['listagem'] = $this->movimento_model->setEntrada($id);
 
-        if ($data['listagem'] == true){            
+        if ($data['listagem'] == true) {
             $variaveis['titulo'] = "Sucesso";
-            $variaveis['mensagem'] = "Dados gravados com sucesso!";            
+            $variaveis['mensagem'] = "Dados gravados com sucesso!";
             $this->template->show('movimento/Entrada', $variaveis);
-
-        }else {
+        } else {
             $variaveis['titulo'] = "Falha";
             $variaveis['mensagem'] = "Não existe Cardápio cadastrado para este dia.";
             $this->template->show('movimento/Entrada', $variaveis);
-        }     
-
+        }
     }
 
-
-    public function saida($id){
+    public function saida($id) {
 
         $this->load->model('movimento_model');
-       
-        $data['listagem'] = $this->movimento_model->setSaida($id);        
+        $variaveis['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
+        $variaveis['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'];
 
-        if ($data['listagem'] == true){            
+        $data['listagem'] = $this->movimento_model->setSaida($id);
+
+        if ($data['listagem'] == true) {
             $variaveis['titulo'] = "Sucesso";
-            $variaveis['mensagem'] = "Dados gravados com sucesso!";            
+            $variaveis['mensagem'] = "Dados gravados com sucesso!";
             $this->template->show('movimento/Saida', $variaveis);
-
-        }else {
+        } else {
             $variaveis['titulo'] = "Falha";
             $variaveis['mensagem'] = "Não existe Cardápio cadastrado para este dia.";
             $this->template->show('movimento/Saida', $variaveis);
-        }     
-
+        }
     }
+
 }

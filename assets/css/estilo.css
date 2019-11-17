@@ -10,6 +10,7 @@ table{
     text-align: center;
     margin-top: 3%;
 }
+
 table td, th {
     border: 1px solid #943954;
     padding: 3px 2px;
@@ -210,10 +211,11 @@ margin-left: 28%;
 }
 
 .homeBusca{
-    margin-top: 10%;
+    margin-top: 1%;
     margin-left: 40%;
 }
 
 .selectTipoCardapio{
     margin-left: 79%;
 }
+
