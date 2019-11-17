@@ -151,7 +151,7 @@ legend {
     padding-left: 90%;
 }
 .fieldTipoRefeicao{
-    width: 100%;
+    width: 60%;
     height: 10%;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -162,7 +162,9 @@ legend {
     background-position: 10px 10px; 
     background-repeat: no-repeat;
 }
-
+.fieldTipoRefeicao *{
+    padding-left: 11.5%;
+}
 .lblTipoRefeicao{
 margin-left: 28%;
 }
@@ -206,16 +208,20 @@ margin-left: 28%;
 }
 
 .campoBusca {
-    margin-left: 56%;
-    margin-top: -1%;
+    margin-left: 50%;
+    margin-top: 1%;
 }
 
 .homeBusca{
     margin-top: 1%;
-    margin-left: 40%;
+    margin-left: 30%;
 }
 
 .selectTipoCardapio{
     margin-left: 79%;
 }
 
+.botoesBusca{
+    padding-top: 1%;
+    padding-left: 12%
+}

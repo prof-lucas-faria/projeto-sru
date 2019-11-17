@@ -8,7 +8,7 @@ class Movimento_model extends CI_Model{
         
         if ($query->row() != null){
 
-            $dados['data'] = date('y-m-d H:i:s');
+            $dados['dataHora'] = date('y-m-d H:i:s');
             $dados['idUsuarios'] = $query->row()->idUsuario;
             $dados['idCardapio'] = $query->row()->idCardapio;
             $dados['idTipoMovimento'] = '1';
@@ -28,7 +28,7 @@ class Movimento_model extends CI_Model{
         
         if ($query->row() != null){
 
-            $dados['data'] = date('y-m-d H:i:s');
+            $dados['dataHora'] = date('y-m-d H:i:s');
             $dados['idUsuarios'] = $query->row()->idUsuario;
             $dados['idCardapio'] = $query->row()->idCardapio;
             $dados['idTipoMovimento'] = '2';

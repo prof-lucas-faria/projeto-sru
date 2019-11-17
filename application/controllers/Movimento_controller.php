@@ -13,6 +13,8 @@ class Movimento_controller extends CI_Controller {
 
         $this->load->model('movimento_model');
         $data['listagem'] = $this->movimento_model->setEntrada($id);
+        $variaveis['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
+        $variaveis['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'];
 
         if ($data['listagem'] == true) {
             $variaveis['titulo'] = "Sucesso";
