@@ -5,8 +5,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 class HomeController extends CI_Controller {
 
     public function index() {
-        $data['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'];
-        $data['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
+    	if(!$_SESSION['tipoCardapioEscolhido']){
+    		$_SESSION['tipoCardapioEscolhido'] = '';
+    	}
+    	$data['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'];
+	$data['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
+    	        
         $data['titulo'] = "Home"; //titulo da página
         $this->template->show('usuario/BuscarUsuario', $data);
     }

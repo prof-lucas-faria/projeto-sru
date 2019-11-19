@@ -13,7 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class=" selectTipoCardapio form-inline">
                     <label for="selectTipoCardapio">Tipo de cardápio</label>
                     <select class="form-control" id="idTipoCardapio" name="idTipoCardapio"  value="<?= set_value('idTipoCardapio') ?>">
-                        <option value="0">-Selecione-</option>
+                        <option hidden="true"value="0">-Selecione-</option>
                         <?php
                         foreach ($tiposCardapio as $i => $tipos) {
                             echo "\n".'<option value="', $i, '">', $tipos, '</option>';

@@ -19,9 +19,12 @@ class Acesso_controller extends CI_Controller {
             if ($_POST['busca'] != "") {
         $this->load->model('acesso_model');
 
+
+
                 $data['listagemDeAcesso'] = $this->acesso_model->getMatricula($_POST['busca']);
             }
         } else {
+        
 
             $config['base_url'] = base_url() . 'index.php/acesso_controller/resultadoAcesso/';
             $config['total_rows'] = $this->acesso_model->get_count();

@@ -7,6 +7,7 @@ class Movimento_controller extends CI_Controller {
     public function index() {
         $variaveis['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
         $variaveis['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'];
+        
     }
 
     public function entrada($id) {
