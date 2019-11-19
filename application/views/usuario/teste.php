@@ -13,7 +13,9 @@
 
 foreach($listagem as $lista){
     
-            echo "{$lista->curso} {$lista->qtde} \n";    
+            echo "Curso - {$lista->curso}\n";
+            echo "Qtde - {$lista->qtde}";
+                
             
 }
 

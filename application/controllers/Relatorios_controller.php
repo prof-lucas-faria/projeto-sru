@@ -25,7 +25,6 @@ class Relatorios_controller extends CI_Controller {
             $data['listagem'] = $this->relatorios_model->consultaPorGenero($_POST['dataHoraI'], $_POST['dataHoraF']);
         }
 
-
         if($_POST['Consulta'] == 'opcao2'){
 
             $data['listagem'] = $this->relatorios_model->consultaGeral($_POST['dataHoraI'], $_POST['dataHoraF']);
@@ -34,9 +33,7 @@ class Relatorios_controller extends CI_Controller {
         if($_POST['Consulta'] == 'opcao3'){
 
             $data['listagem'] = $this->relatorios_model->consultaPorCurso($_POST['dataHoraI'], $_POST['dataHoraF']);
-        }
-
-    
+        }    
 
         $data['titulo'] = "Resultado Relatório"; //titulo da página
         // $this->template->show('relatorios/resultadoRelatorio', $data);
