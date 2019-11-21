@@ -31,7 +31,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <?php echo form_error('nomeCardapio'); ?>
             <input class="form-check-input" type="radio" name="Consulta" id="relatorio1" value="opcao1" checked>
             <label class="form-check-label" for="relatorio1">
-            Consulta Alunos Genero
+            Consulta QTDE Refeição Por Genero
             </label>
         </div>
         <br>   
@@ -39,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <?php echo form_error('genero'); ?>
             <input class="form-check-input" type="radio" name="Consulta" id="relatorio2" value="opcao2">
             <label class="form-check-label" for="relatorio2">
-            Consulta Alunos Gerals
+            Consulta QTDE Refeição
             </label>
         </div>
         <br>
@@ -48,7 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <?php echo form_error('genero'); ?>
             <input class="form-check-input" type="radio" name="Consulta" id="relatorio2" value="opcao3">
             <label class="form-check-label" for="relatorio2">
-            Consulta Alunos Por Curso
+            Consulta QTDE Refeição Por Curso
             </label>
         </div>
         <br>

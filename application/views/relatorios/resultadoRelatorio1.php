@@ -1,4 +1,4 @@
-<h1>Quantidade de Alunos Por Gênero</h1>
+<h1>Quantidade de Refeição Por Gênero</h1>
 <br>
 
 <?php 

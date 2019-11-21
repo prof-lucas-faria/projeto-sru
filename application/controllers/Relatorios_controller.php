@@ -41,16 +41,36 @@ class Relatorios_controller extends CI_Controller {
         if($_POST['Consulta'] == 'opcao2'){
 
             $data['listagem'] = $this->relatorios_model->consultaGeral($_POST['dataHoraI'], $_POST['dataHoraF']);
+
+            // Configuração para gerar o PDF a partir de uma HTML
+            $html = $this->load->view('relatorios/resultadoRelatorio2', $data, TRUE);
+            $pdf = new Pdf('P', 'mm', 'A4', true, 'UTF-8', false);
+            $pdf->SetTitle('Relatório SRU');
+            $pdf->setHeaderMargin(10);
+            $pdf->setTopMargin(10);            
+            $pdf->AddPage('P', false, false); // L = LandScape e P = Portrait
+            $pdf->writeHTML($html);
+            $pdf->Output('RelGeral.pdf', 'I'); // I = Enviar para o Browser e o F = Fazer Download direto            
         }
 
         if($_POST['Consulta'] == 'opcao3'){
 
             $data['listagem'] = $this->relatorios_model->consultaPorCurso($_POST['dataHoraI'], $_POST['dataHoraF']);
+
+            // Configuração para gerar o PDF a partir de uma HTML
+            $html = $this->load->view('relatorios/resultadoRelatorio3', $data, TRUE);
+            $pdf = new Pdf('P', 'mm', 'A4', true, 'UTF-8', false);
+            $pdf->SetTitle('Relatório SRU');
+            $pdf->setHeaderMargin(10);
+            $pdf->setTopMargin(10);            
+            $pdf->AddPage('L', false, false); // L = LandScape e P = Portrait
+            $pdf->writeHTML($html);
+            $pdf->Output('RelPorCurso.pdf', 'I'); // I = Enviar para o Browser e o F = Fazer Download direto            
         }    
 
         // $data['titulo'] = "Resultado Relatório"; //titulo da página
         // $this->template->show('relatorios/resultadoRelatorio', $data);
-        // $this->template->show('usuario/teste', $data);
+        // $this->template->show('relatorios/resultadoRelatorio3', $data);
     }
 
 }
