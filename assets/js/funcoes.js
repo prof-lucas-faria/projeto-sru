@@ -64,10 +64,10 @@ function loadModal() {
 }
 
 
-function link_form_deletar($caminho, $id) {
-    Buffer.clear();
-    //document.getElementById('formDeletar').action = '../../'+$caminho + $id;
-    $('#formDeletar').attr('action', $caminho +''+ $id);
-    Buffer.clear();
+function link_deletar() {
+    $('#modalDelete').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget); // Botão que acionou o modal
+        var modal = $(this);
+        modal.find('.modal-body #iddeletar').val(button.data('whateverdeletar'));
+    });
 }
-    
