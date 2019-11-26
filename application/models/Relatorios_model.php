@@ -45,4 +45,19 @@ class Relatorios_model extends CI_Model{
         return $query->result();
     }
 
+    public function consultaPorCidade($dataHoraI, $dataHoraF){
+
+        $dataHoraI = new DateTime($dataHoraI);
+        $dataHoraF = new DateTime($dataHoraF);
+
+        $query = $this->db->query("select cidadeOrigem, count(idMovimento) as qtde 
+        from Movimento inner join Usuario on Movimento.idUsuarios = Usuario.idUsuario
+        where dataHora between '{$dataHoraI->format('Y-m-d H:i:s')}' and '{$dataHoraF->format('Y-m-d H:i:s')}' and idTipoMovimento = '1'
+        group by cidadeOrigem order by qtde");
+
+        return $query->result();
+    }
+
+
+
 }

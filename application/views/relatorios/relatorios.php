@@ -46,13 +46,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="form-check">
             <?php echo form_error('genero'); ?>
-            <input class="form-check-input" type="radio" name="Consulta" id="relatorio2" value="opcao3">
-            <label class="form-check-label" for="relatorio2">
+            <input class="form-check-input" type="radio" name="Consulta" id="relatorio3" value="opcao3">
+            <label class="form-check-label" for="relatorio3">
             Consulta QTDE Refeição Por Curso
             </label>
         </div>
         <br>
        
+        <div class="form-check">
+            <?php echo form_error('genero'); ?>
+            <input class="form-check-input" type="radio" name="Consulta" id="relatorio4" value="opcao4">
+            <label class="form-check-label" for="relatorio4">
+            Consulta QTDE Refeição Por Cidade
+            </label>
+        </div>
+        <br>
+
         </div>
                 
             <div class="form-row homeBusca">    
