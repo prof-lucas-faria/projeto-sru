@@ -68,6 +68,21 @@ class Relatorios_controller extends CI_Controller {
             $pdf->Output('RelPorCurso.pdf', 'I'); // I = Enviar para o Browser e o F = Fazer Download direto            
         }    
 
+        if($_POST['Consulta'] == 'opcao4'){
+
+            $data['listagem'] = $this->relatorios_model->consultaPorCidade($_POST['dataHoraI'], $_POST['dataHoraF']);
+
+            // Configuração para gerar o PDF a partir de uma HTML
+            $html = $this->load->view('relatorios/resultadoRelatorio4', $data, TRUE);
+            $pdf = new Pdf('P', 'mm', 'A4', true, 'UTF-8', false);
+            $pdf->SetTitle('Relatório SRU');
+            $pdf->setHeaderMargin(10);
+            $pdf->setTopMargin(10);            
+            $pdf->AddPage('L', false, false); // L = LandScape e P = Portrait
+            $pdf->writeHTML($html);
+            $pdf->Output('RelPorCidade.pdf', 'I'); // I = Enviar para o Browser e o F = Fazer Download direto            
+        }    
+
         // $data['titulo'] = "Resultado Relatório"; //titulo da página
         // $this->template->show('relatorios/resultadoRelatorio', $data);
         // $this->template->show('relatorios/resultadoRelatorio3', $data);

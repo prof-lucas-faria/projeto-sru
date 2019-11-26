@@ -6,7 +6,7 @@ class HomeController extends CI_Controller {
 
     public function index() {
     	if(!$_SESSION['tipoCardapioEscolhido']){
-    		$_SESSION['tipoCardapioEscolhido'] = '';
+    		$_SESSION['tipoCardapioEscolhido'] = '1';
     	}
     	$data['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'];
 	$data['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();

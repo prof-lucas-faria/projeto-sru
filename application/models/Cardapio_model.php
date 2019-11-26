@@ -48,7 +48,7 @@ class Cardapio_model extends CI_Model {
     //$dados. Array que contém os campos a serem inseridos
     //Se for passado o $id via parâmetro, então atualizo o registro em vez de inseri-lo.
     public function store($dados = null, $id = null) {
-        if ($dados) {
+       // if ($dados) {
             if ($id) {
                 $this->db->where('id', $id);
                 if ($this->db->update("Cardapio", $dados)) {
@@ -63,7 +63,7 @@ class Cardapio_model extends CI_Model {
                     return false;
                 }
             }
-        }
+       // }
     }
 
     function deletar($id) {

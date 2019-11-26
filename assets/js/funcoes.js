@@ -53,7 +53,7 @@ function loadModal() {
         modal.find('.modal-body #recipientId').val(button.data('whatever'));
         modal.find('.modal-body #data').val(button.data('whateverdata'));
         modal.find('.modal-body #nomeCardapio').val(button.data('whatevernome'));
-        modal.find('.modal-body #tipo').val(button.data('whatevertipo'));
+        modal.find('.modal-body #idTipoCardapio').val(button.data('whatevertipo'));
         modal.find('.modal-body #pratoPrincipal').val(button.data('whateverprato'));
         modal.find('.modal-body #guarnicao').val(button.data('whateverguar'));
         modal.find('.modal-body #acompanhamento').val(button.data('whateveracom'));
@@ -64,10 +64,10 @@ function loadModal() {
 }
 
 
-function link_form_deletar($caminho, $id) {
-    Buffer.clear();
-    //document.getElementById('formDeletar').action = '../../'+$caminho + $id;
-    $('#formDeletar').attr('action', $caminho +''+ $id);
-    Buffer.clear();
+function link_deletar() {
+    $('#modalDelete').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget); // Botão que acionou o modal
+        var modal = $(this);
+        modal.find('.modal-body #iddeletar').val(button.data('whateverdeletar'));
+    });
 }
-    

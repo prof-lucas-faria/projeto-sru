@@ -2,13 +2,16 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Cardapio_controller extends CI_Controller {
+class Cardapio_controller extends CI_Controller
+{
 
-    public function index() {
+    public function index()
+    {
         //$this->listar();
     }
 
-    public function listar() {
+    public function listar()
+    {
 
         $config['base_url'] = base_url('index.php/cardapio_controller/listar');
         $config['total_rows'] = $this->cardapio_model->get_count();
@@ -26,11 +29,13 @@ class Cardapio_controller extends CI_Controller {
         $this->template->show('cardapio/listarCardapio_view', $data);
     }
 
-    public function listarPorId($id = NULL) {
+    public function listarPorId($id = NULL)
+    {
         return $this->cardapio_model->listarPorId($id);
     }
 
-    public function getCardapioFromView() {//recebe via post os dados do formulario
+    public function getCardapioFromView()
+    {//recebe via post os dados do formulario
         $cardapio = new Cardapio_model();
 
         $cardapio->__set('data', $this->input->post('data'));
@@ -54,7 +59,9 @@ class Cardapio_controller extends CI_Controller {
      *  Esse processo continua até que você envie um formulário válido.
      */
 
-    public function validarFormulario() {
+    public function validarFormulario()
+    {
+
         $regras = array(
             array('field' => 'data', 'label' => 'Data', 'rules' => 'trim|required'),
             array('field' => 'nomeCardapio', 'label' => 'Nome', 'rules' => 'required'),
@@ -64,14 +71,15 @@ class Cardapio_controller extends CI_Controller {
             array('field' => 'salada', 'label' => 'Salada', 'rules' => 'required'),
             array('field' => 'sobremesa', 'label' => 'Sobremesa', 'rules' => 'required'),
             array('field' => 'suco', 'label' => 'Suco', 'rules' => 'required'),
-            array('field' => 'idTipoCardapio', 'label' => 'Tipo Cardápio', 'errors' => array('required' => "Please select the gender"), 'rules' => 'required'),
+            //  array('field' => 'idTipoCardapio', 'label' => 'Tipo Cardápio', 'rules' => 'required|callback_check_default'),
         );
 
         $this->form_validation->set_rules($regras);
         return $this->form_validation->run();
     }
 
-    public function store() {
+    public function store()
+    {
         if (!$this->validarFormulario()) {
             $data['titulo'] = 'Erro no Formulario';
             $data['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
@@ -79,9 +87,7 @@ class Cardapio_controller extends CI_Controller {
             $this->template->show('cardapio/adicionarCardapio_view', $data);
         } else {
             $id = $this->input->get('id');
-            //echo $id;
             $dados = [
-                'idCardapio' => $this->input->get('id'),
                 'data' => $this->input->post('data'),
                 'nomeCardapio' => $this->input->post('nomeCardapio'),
                 'pratoPrincipal' => $this->input->post('pratoPrincipal'),
@@ -95,7 +101,7 @@ class Cardapio_controller extends CI_Controller {
 
             if ($this->cardapio_model->store($dados, $id)) {
                 $variaveis['titulo'] = "Sucesso";
-                $variaveis['caminhoVoltar'] = "novo";
+                $variaveis['caminhoVoltar'] = "listar";
 
                 $variaveis['mensagem'] = "Dados gravados com sucesso!";
                 $this->template->show('errors/v_sucesso', $variaveis);
@@ -107,15 +113,18 @@ class Cardapio_controller extends CI_Controller {
         }
     }
 
-    public function novo() {
+    public function novo()
+    {
         $variaveis['titulo'] = "Novo";
         $variaveis['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
         $this->template->show('cardapio/adicionarCardapio_view', $variaveis);
     }
 
-    function delete($id) {
+    function delete()
+    {
+        $id = $this->input->post('iddeletar');
         if ($this->cardapio_model->deletar($id)) {
-            $variaveis['caminhoVoltar'] = "/index.php/cardapio_controller/listar";
+            $variaveis['caminhoVoltar'] = base_url('index.php/cardapio_controller/listar');
             $variaveis['mensagem'] = "Deletado com sucesso";
             $variaveis['titulo'] = "Sucesso";
             $this->template->show('errors/v_sucesso', $variaveis);
