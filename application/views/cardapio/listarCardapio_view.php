@@ -68,9 +68,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </a>
 
                     <a onclick="link_deletar()" data-whateverdeletar="<?php echo $cardapio->idCardapio ?>"
-                        <img data-toggle="modal" data-target=".bd-example-modal-sm"
-                             src="<?php echo base_url('assets/images/icons-delete-64.png'); ?>"
-                             class="iconTable btn btn-sm">
+                       data-toggle="modal" data-target=".bd-example-modal-sm">
+
+                        <input type="image"
+                               src="<?php echo base_url('assets/images/icons-delete-64.png'); ?>"
+                               class="iconTable btn btn-sm">
+
                     </a>
                 </td>
                 <?php endforeach; ?>

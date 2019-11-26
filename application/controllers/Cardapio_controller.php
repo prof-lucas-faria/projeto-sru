@@ -87,9 +87,7 @@ class Cardapio_controller extends CI_Controller
             $this->template->show('cardapio/adicionarCardapio_view', $data);
         } else {
             $id = $this->input->get('id');
-            echo $id;
             $dados = [
-                //'idCardapio' => $id,
                 'data' => $this->input->post('data'),
                 'nomeCardapio' => $this->input->post('nomeCardapio'),
                 'pratoPrincipal' => $this->input->post('pratoPrincipal'),
@@ -124,7 +122,7 @@ class Cardapio_controller extends CI_Controller
 
     function delete()
     {
-       $id = $this->input->post('iddeletar');
+        $id = $this->input->post('iddeletar');
         if ($this->cardapio_model->deletar($id)) {
             $variaveis['caminhoVoltar'] = base_url('index.php/cardapio_controller/listar');
             $variaveis['mensagem'] = "Deletado com sucesso";
