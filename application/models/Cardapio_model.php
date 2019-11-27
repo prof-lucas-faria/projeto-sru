@@ -80,7 +80,7 @@ class Cardapio_model extends CI_Model
 
     function getTiposCardapio()
     {
-        $query = $this->db->query('SELECT idTipoCardapio,nomeTipoCardapio FROM TipoCardapio');
+        $query = $this->db->query("SELECT idTipoCardapio, nomeTipoCardapio FROM TipoCardapio");
 
         if ($query->num_rows() > 0) {
             foreach ($query->result() as $row) {

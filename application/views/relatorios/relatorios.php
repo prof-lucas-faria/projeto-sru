@@ -5,7 +5,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <form action="<?= base_url('index.php/relatorios_controller/resultado/') ?>" method="post"> 
 
       <div class="text-right">
-            <?= form_open('relatorios_controller/datar') ?>
             <?php //echo validation_errors() ?>
                 <div class="form-group col-md-4">
                 <?php echo form_error('data'); ?>

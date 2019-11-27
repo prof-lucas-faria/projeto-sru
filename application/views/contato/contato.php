@@ -4,10 +4,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     
 <head><meta charset="UTF-8"></head>
 <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
- <input type="hidden" name="recipient" value="testeiseuemail@gmail.com"> <!-- Pode ser qualquer endereço de email -->
- <input type="hidden" name="redirect" value="http://seudominio"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
- <input type="hidden" name="subject" value="teste de assunto">  <!-- Assunto da mensagem -->
- <input type="hidden" name="email" value="email@doseudominio">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+ <input type="hidden" name="recipient" value="anateodorodematos22@gmail.com"> <!-- Pode ser qualquer endereço de email -->
+ <input type="hidden" name="redirect" value="https://github.com/prof-lucas-faria/projeto-sru"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+ <input type="hidden" name="subject" value="Comentários">  <!-- Assunto da mensagem -->
+ <input type="hidden" name="email" value="ateodorodematos22@hotmail.com">   <!-- Deve ser uma conta de email ativa em seu domínio -->
  
     
           <div class="text-right">
@@ -16,19 +16,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="form-group col-md-4">
             <div class="form-group">
                 <?php echo form_error('nomeColaborador'); ?>
-                <label for="nomeColaborador">Nome</label>
+                <label for="nomeColaborador" class="form col-md-2">Nome</label>
                 <input type="text" name="nomeColaborador" id="nomeColaborador" class="form-control" autofocus='true' requiried="true" />
             </div>
             <br>
             <div class="form-group">
                 <?php echo form_error('eMail'); ?>
-                <label for="eMail">E-mail</label>
+                <label for="eMail" class="form col-md-2">Email</label>
                 <input type="text" name="replyto" id="eMail" class="form-control" autofocus='true' requiried="true" />
             </div>                    
             <br>
             <div class="form-group">
                 <?php echo form_error('texto'); ?>
-                <label for="texto">Comentários</label>
+                <label for="texto" class="form col-md-2">Comentários</label>
                 <textarea class="form-control" id="texto" rows="3" autofocus='true' requiried="true"></textarea>
             </div>
                 

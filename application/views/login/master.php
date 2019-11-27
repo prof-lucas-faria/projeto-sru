@@ -18,19 +18,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <title>Login</title>
             <strong>Entre com o usuário</strong> <!--Cabeçalho -->
         </div>
-        <div class="col-sm-10">
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="opcao1" checked>
-                <label class="form-check-label" for="gridRadios1">
-                    Administrador
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="opcao2">
-                <label class="form-check-label" for="gridRadios2">
-                    Nutricionista
-                </label>
-            </div>  
 
             </br>
 
