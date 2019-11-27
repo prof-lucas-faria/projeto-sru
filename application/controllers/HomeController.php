@@ -2,20 +2,25 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class HomeController extends CI_Controller {
+class HomeController extends CI_Controller
+{
 
-    public function index() {
-    	if(!$_SESSION['tipoCardapioEscolhido']){
-    		$_SESSION['tipoCardapioEscolhido'] = '1';
-    	}
-    	$data['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'];
-	$data['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
-    	        
+    public function index()
+    {
+        if (!$_SESSION['tipoCardapioEscolhido']) {
+            $_SESSION['tipoCardapioEscolhido'] = '1';
+        } else {
+            $data['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'];
+        }
+
+        $data['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
+
         $data['titulo'] = "Home"; //titulo da página
         $this->template->show('usuario/BuscarUsuario', $data);
     }
 
-    public function resultado() {
+    public function resultado()
+    {
 
         $this->load->model('usuario_model');
         $data['tipoCardapioEscolhido'] = $_SESSION['tipoCardapioEscolhido'] = $this->input->post('tipoCardapio'); //tipo recebido da view

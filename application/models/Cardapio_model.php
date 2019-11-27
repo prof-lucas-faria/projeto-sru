@@ -2,7 +2,8 @@
 
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Cardapio_model extends CI_Model {
+class Cardapio_model extends CI_Model
+{
 
     private $id;
     private $data;
@@ -28,17 +29,20 @@ class Cardapio_model extends CI_Model {
 //    }
 
 
-    public function __set($atributo, $valor) {
+    public function __set($atributo, $valor)
+    {
         $this->$atributo = $valor;
     }
 
     // contador de registro. Ira trazer a contagem da tabela usuario e retorna um inteiro
-    public function get_count() {
+    public function get_count()
+    {
         return $this->db->count_all("Cardapio");
     }
 
     // define o limte de registros exibido na tabela de paginação
-    public function get_limite($limit, $start) {
+    public function get_limite($limit, $start)
+    {
         $this->db->limit($limit, $start);
         $query = $this->db->get("Cardapio");
 
@@ -47,10 +51,12 @@ class Cardapio_model extends CI_Model {
 
     //$dados. Array que contém os campos a serem inseridos
     //Se for passado o $id via parâmetro, então atualizo o registro em vez de inseri-lo.
-    public function store($dados = null, $id = null) {
-       // if ($dados) {
+    public function store($dados = null, $id = null)
+    {
+        if ($dados) {
+
             if ($id) {
-                $this->db->where('id', $id);
+                $this->db->where('idCardapio', $id);
                 if ($this->db->update("Cardapio", $dados)) {
                     return true;
                 } else {
@@ -63,15 +69,17 @@ class Cardapio_model extends CI_Model {
                     return false;
                 }
             }
-       // }
+        }
     }
 
-    function deletar($id) {
+    function deletar($id)
+    {
         $this->db->where('idCardapio', $id);
         return $this->db->delete('Cardapio');
     }
 
-    function getTiposCardapio() {
+    function getTiposCardapio()
+    {
         $query = $this->db->query('SELECT idTipoCardapio,nomeTipoCardapio FROM TipoCardapio');
 
         if ($query->num_rows() > 0) {
@@ -83,11 +91,13 @@ class Cardapio_model extends CI_Model {
         }
     }
 
-    public function get() {
+    public function get()
+    {
         return $this->db->get('Cardapio');
     }
 
-    public function listarPorId($id = NULL) {
+    public function listarPorId($id = NULL)
+    {
         $this->db->select('*');
         $this->db->from('Cardapio');
         $this->db->where('idCardapio', $id);

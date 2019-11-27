@@ -20,19 +20,18 @@
                             <?= form_open('cardapio_controller/store/') ?>
 
                             <div class="form-group">
-                                <input type="text" name="id" id="recipientId">
+                                <input hidden type="text" name="idEditar" id="recipientId">
                             </div>
 
                             <div class=" selectTipoCardapio form-inline">
                                 <label for="selectTipoCardapio">Tipo de cardápio</label>
-                                <select class="form-control" id="idTipoCardapio" name="tipo"
-                                        value="<?= set_value('tipo') ?>">
-
-                                    <option id="idTipoCardapio" value="0">-Selecione-</option>
+                                <select class="form-control" id="idTipoCardapio" name="idTipoCardapio"
+                                        value="<?= set_value('idTipoCardapio') ?>">
+                                    <option value="0">-Selecione-</option>
                                     <?php
-                                        foreach ($this->cardapio_model->getTiposCardapio() as $i => $tipos) {
-                                            echo "\n" . '<option name="idTipoCardapio" id="idTipoCardapio" value="', $i, '">', $tipos, '</option>';
-                                        }
+                                    foreach ($tiposCardapio as $i => $tipos) {
+                                        echo "\n" . '<option name="idTipoCardapio" value="', $i, '">', $tipos, '</option>';
+                                    }
                                     ?>
                                 </select>
                             </div>

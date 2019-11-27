@@ -2,14 +2,14 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?><!DOCTYPE html>
 
-<div class="form-row homeBusca">    
+<div class="form-row homeBusca">
 
     <div class="form-group form-inline">
         <?= form_open('homeController/resultado/') ?>
 
 
         <fieldset class="fieldTipoRefeicao">
-            <label class="lblTipoRefeicao" >Tipo da refeição:</label><br>
+            <label class="lblTipoRefeicao">Tipo da refeição:</label><br>
             <div class="form-group">
                 <?php
                 foreach ($tiposCardapio as $i => $tipos) {
@@ -21,13 +21,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     echo ' &nbsp';
                 }
                 ?>
+            </div>
 
         </fieldset>
         <div class="form-group botoesBusca">
-            <input id="busca" name="busca" placeholder="Digite a matrícula" class="form-control" type="text">        
-            <button type="submit" class="btn btn-danger">Buscar</button>   </div>
-    </div>           
-</form><?= form_close() ?>
+            <input id="busca" name="busca" placeholder="Digite a matrícula" class="form-control" type="text">
+            <button type="submit" class="btn btn-danger">Buscar</button>
+        </div>
+    </div>
+    </form><?= form_close() ?>
 </div>
 
 </div>

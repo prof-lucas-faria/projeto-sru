@@ -12,6 +12,7 @@ class Cardapio_controller extends CI_Controller
 
     public function listar()
     {
+        $data['tiposCardapio'] = $this->cardapio_model->getTiposCardapio();
 
         $config['base_url'] = base_url('index.php/cardapio_controller/listar');
         $config['total_rows'] = $this->cardapio_model->get_count();
@@ -86,7 +87,7 @@ class Cardapio_controller extends CI_Controller
             $this->form_validation->set_error_delimiters('<div class="alert alert-danger" role="alert">', ' </div> ');
             $this->template->show('cardapio/adicionarCardapio_view', $data);
         } else {
-            $id = $this->input->get('id');
+            $id = $this->input->post('idEditar');
             $dados = [
                 'data' => $this->input->post('data'),
                 'nomeCardapio' => $this->input->post('nomeCardapio'),
@@ -100,8 +101,9 @@ class Cardapio_controller extends CI_Controller
             ];
 
             if ($this->cardapio_model->store($dados, $id)) {
+
                 $variaveis['titulo'] = "Sucesso";
-                $variaveis['caminhoVoltar'] = "listar";
+                $variaveis['caminhoVoltar'] = base_url('index.php/cardapio_controller/listar');
 
                 $variaveis['mensagem'] = "Dados gravados com sucesso!";
                 $this->template->show('errors/v_sucesso', $variaveis);
